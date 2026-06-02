@@ -81,12 +81,68 @@ async function boot() {
   }
 
   renderHeader();
+  renderWeeklyReport();
   renderTrends();
   renderCreators();
   renderCharts();
   renderLeaderboard();
   renderTopVideos();
   bindModal();
+}
+
+// -------------------- WEEKLY REPORT BANNER --------------------
+function renderWeeklyReport() {
+  const r = DATA.weeklyReport;
+  const section = $('#weeklyReport');
+  if (!r) { section.classList.add('hidden'); return; }
+  section.classList.remove('hidden');
+
+  if (r.weekOf) $('#reportWeek').textContent = (r.weekOf || '').toLowerCase();
+  if (r.generatedAt) {
+    try {
+      const d = new Date(r.generatedAt);
+      $('#reportGenerated').textContent = 'generated ' + d.toUTCString().replace(' GMT', ' UTC');
+    } catch (_) {}
+  }
+
+  const blocks = [];
+  if (r.summary) {
+    blocks.push(`
+      <div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-butter mb-2">overview</div>
+        <p class="font-display text-base md:text-lg leading-snug">${r.summary}</p>
+      </div>`);
+  }
+  if (r.topVideo) {
+    const tv = r.topVideo;
+    const linkOpen = tv.tiktokUrl ? `<a href="${tv.tiktokUrl}" target="_blank" rel="noopener" class="uline">` : '';
+    const linkClose = tv.tiktokUrl ? `</a>` : '';
+    blocks.push(`
+      <div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-butter mb-2">top video</div>
+        <p class="phrase text-2xl md:text-3xl text-magnolia leading-tight">${linkOpen}${(tv.title || '').toLowerCase()}${linkClose}</p>
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-magnolia/60 mt-1">${tv.creatorName || ''} · ${fmtCompact(tv.likes || 0)} likes</p>
+      </div>`);
+  }
+  if (r.topCreator) {
+    const tc = r.topCreator;
+    blocks.push(`
+      <div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-butter mb-2">top creator</div>
+        <p class="phrase text-2xl md:text-3xl text-magnolia leading-tight">${(tc.name || '').toLowerCase()}</p>
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-magnolia/60 mt-1">${tc.reason || ''}</p>
+      </div>`);
+  }
+  if (r.watchOuts && r.watchOuts.length) {
+    blocks.push(`
+      <div>
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt mb-2">watch out</div>
+        <ul class="space-y-1">
+          ${r.watchOuts.map(w => `<li class="font-mono text-xs text-magnolia/80">↗ ${w}</li>`).join('')}
+        </ul>
+      </div>`);
+  }
+  $('#reportBody').innerHTML = blocks.join('');
 }
 
 // -------------------- CHARTS (Production + Performance) --------------------
