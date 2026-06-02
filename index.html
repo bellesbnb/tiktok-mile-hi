@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>the squad — mile hi city pickleball</title>
+<meta name="description" content="The TikTok creator squad for Mile Hi City Pickleball. Denver, Summer '26.">
+<meta name="theme-color" content="#003C78">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Anton&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          /* Mile Hi official palette */
+          denim:    '#096994',
+          burnt:    '#F05D38',
+          butter:   '#F39D34',
+          aqua:     '#1982A6',
+          navy:     '#003C78',
+          magnolia: '#FDFFEA',
+          /* helpers */
+          ink:      '#003C78',
+          paper:    '#FDFFEA',
+          inkSoft:  '#4B6275'
+        },
+        fontFamily: {
+          display: ['Fredoka', 'sans-serif'],
+          impact:  ['Anton', 'Impact', 'sans-serif'],
+          body:    ['"DM Sans"', 'system-ui', 'sans-serif'],
+          mono:    ['"DM Mono"', 'monospace']
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  html, body { background: #FDFFEA; color: #003C78; }
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .font-display { font-family: 'Fredoka', sans-serif; }
+  .font-impact  { font-family: 'Anton', Impact, sans-serif; letter-spacing: .01em; }
+  .font-mono    { font-family: 'DM Mono', monospace; letter-spacing: .03em; }
+
+  /* === THE BRAND 3-STRIPE === */
+  .stripe-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 12px;
+    width: 100%;
+  }
+  .stripe-3 > :nth-child(1) { background: #F05D38; }  /* burnt orange */
+  .stripe-3 > :nth-child(2) { background: #F39D34; }  /* butterscotch */
+  .stripe-3 > :nth-child(3) { background: #1982A6; }  /* aqua */
+
+  .stripe-3-thin { height: 6px; }
+  .stripe-3-fat  { height: 18px; }
+
+  /* === ENTRANCE === */
+  @keyframes rise { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .rise { opacity: 0; animation: rise .9s cubic-bezier(.16,.84,.24,1) forwards; }
+  .rise-1 { animation-delay: .05s; }
+  .rise-2 { animation-delay: .18s; }
+  .rise-3 { animation-delay: .34s; }
+  .rise-4 { animation-delay: .52s; }
+  .rise-5 { animation-delay: .72s; }
+
+  /* === CARD === */
+  .creator-card { transition: transform .45s cubic-bezier(.16,.84,.24,1); cursor: pointer; }
+  .creator-card:hover { transform: translateY(-4px); }
+  .creator-card .photo-wrap { overflow: hidden; background: #003C78; }
+  .creator-card .photo-wrap img { transition: transform 1.1s cubic-bezier(.16,.84,.24,1); }
+  .creator-card:hover .photo-wrap img { transform: scale(1.04); }
+
+  /* === ANCHOR LABEL (brand chip) === */
+  .anchor {
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    font-family: 'Anton', Impact, sans-serif;
+    font-size: 13px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #FDFFEA;
+  }
+  .anchor-burnt { background: #F05D38; }
+  .anchor-denim { background: #096994; }
+  .anchor-navy  { background: #003C78; }
+  .anchor-aqua  { background: #1982A6; }
+  .anchor-butter{ background: #F39D34; color: #003C78; }
+
+  /* main phrase style (lowercase Fredoka with one word in burnt orange) */
+  .phrase { font-family: 'Fredoka', sans-serif; font-weight: 600; line-height: .95; text-transform: lowercase; }
+  .phrase .hot { color: #F05D38; }
+
+  /* === ARCS background (retro brand detail) === */
+  .arc {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .arc-burnt { border: 26px solid #F05D38; opacity: .14; }
+  .arc-butter{ border: 22px solid #F39D34; opacity: .14; }
+  .arc-aqua  { border: 22px solid #1982A6; opacity: .14; }
+
+  /* === MODAL === */
+  .modal-mask { background: rgba(0,60,120,0.6); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+  @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+  @keyframes slideRight { from { transform: translateX(100%); } to { transform: translateX(0); } }
+  .modal-sheet { animation: slideUp .42s cubic-bezier(.16,.84,.24,1); }
+  @media (min-width: 768px) {
+    .modal-sheet { animation: slideRight .42s cubic-bezier(.16,.84,.24,1); }
+  }
+
+  /* tier pill */
+  .tier { font-family: 'Anton', Impact, sans-serif; letter-spacing: .04em; text-transform: uppercase; font-size: 11px; padding: 4px 9px; border-radius: 4px; }
+  .tier-Viral { background: #F05D38; color: #FDFFEA; }
+  .tier-Hit   { background: #F39D34; color: #003C78; }
+  .tier-Solid { background: #1982A6; color: #FDFFEA; }
+  .tier-Low   { background: #FDFFEA; color: #003C78; border: 1px solid #003C78; }
+  .tier-Flop  { background: #003C78; color: #FDFFEA; }
+
+  /* underline link */
+  .uline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    padding-bottom: 2px;
+    transition: background-size .25s ease;
+  }
+  .uline:hover { background-size: 100% 2px; }
+
+  .min-h-screen-real { min-height: 100svh; }
+
+  /* knockout text style (white text on photo) */
+  .knockout {
+    color: #FDFFEA;
+    text-shadow: 2px 2px 0 rgba(0,60,120,.6);
+  }
+
+  /* rank numeral */
+  .rank-num {
+    font-family: 'Anton', Impact, sans-serif;
+    letter-spacing: 0;
+    line-height: .85;
+  }
+</style>
+</head>
+
+<body class="overflow-x-hidden">
+
+<!-- ======================== TOP STRIPE ======================== -->
+<div class="stripe-3 stripe-3-fat"><span></span><span></span><span></span></div>
+
+<!-- ======================== HEADER ======================== -->
+<header class="px-5 md:px-10 pt-5 md:pt-7 pb-4 flex items-center justify-between">
+  <a href="/" class="flex items-center" aria-label="Mile Hi City Pickleball">
+    <img src="assets/logo.png" alt="Mile Hi City Pickleball" class="h-12 md:h-16 w-auto">
+  </a>
+  <div class="font-mono text-[11px] uppercase tracking-[0.18em] text-navy/60" id="seasonLabel">Summer '26</div>
+</header>
+
+<!-- ======================== HERO ======================== -->
+<section class="px-5 md:px-10 pt-6 md:pt-14 pb-10 md:pb-20 relative overflow-hidden">
+  <div class="arc arc-burnt" style="width:340px;height:340px;top:-110px;left:-110px;"></div>
+  <div class="arc arc-butter" style="width:260px;height:260px;top:-50px;left:-30px;"></div>
+  <div class="arc arc-aqua" style="width:240px;height:240px;bottom:-100px;right:-60px;"></div>
+
+  <div class="relative max-w-7xl mx-auto">
+    <div class="font-mono text-[11px] uppercase tracking-[0.28em] text-burnt mb-4 rise rise-1">
+      01 ·&nbsp; the squad ·&nbsp; <span id="weekLabel">week of jun 1 — jun 7</span>
+    </div>
+
+    <h1 class="font-display font-semibold text-navy leading-[0.86] tracking-tight rise rise-2">
+      <span class="block text-[18vw] md:text-[12vw] lg:text-[10rem]">the&nbsp;<span class="text-burnt">squad</span>.</span>
+    </h1>
+
+    <div class="grid grid-cols-12 gap-x-4 mt-8 md:mt-12">
+      <p class="col-span-12 md:col-span-7 font-display text-2xl md:text-3xl leading-snug text-navy/80 rise rise-3">
+        Nine voices. One court. Every week, fresh stories from the players shaping pickleball culture in Colorado.
+      </p>
+      <div class="col-span-12 md:col-span-5 md:flex md:justify-end md:items-end mt-6 md:mt-0 rise rise-4">
+        <a href="#roster" class="group inline-flex items-center gap-3 anchor anchor-burnt text-base px-5 py-3">
+          MEET THE ROSTER
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" class="transition-transform group-hover:translate-y-0.5"><path d="M7 1V13M7 13L1 7M7 13L13 7" stroke="currentColor" stroke-width="2"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-12 md:mt-16 rise rise-5">
+      <div class="stripe-3 stripe-3-thin"><span></span><span></span><span></span></div>
+      <div class="flex items-center justify-between mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-navy/60">
+        <span>denver, co</span>
+        <span>11 courts</span>
+        <span>indoor</span>
+        <span>year-round</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== THIS WEEK ======================== -->
+<section class="bg-navy text-magnolia relative overflow-hidden">
+  <div class="arc" style="width:340px;height:340px;top:-110px;right:-110px;border:30px solid #F05D38;opacity:.18"></div>
+  <div class="arc" style="width:240px;height:240px;bottom:-90px;left:-50px;border:24px solid #1982A6;opacity:.18"></div>
+
+  <div class="px-5 md:px-10 py-14 md:py-24 relative max-w-7xl mx-auto">
+    <div class="font-mono text-[11px] uppercase tracking-[0.28em] text-butter mb-4">02 ·&nbsp; what we're filming now</div>
+    <h2 class="font-display font-semibold text-magnolia text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-12 max-w-4xl">
+      this week's <span class="text-burnt">trends</span>.
+    </h2>
+
+    <div id="trends" class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8"></div>
+  </div>
+</section>
+
+<!-- ======================== ROSTER ======================== -->
+<section id="roster" class="px-5 md:px-10 py-14 md:py-24 relative overflow-hidden">
+  <div class="arc arc-butter" style="width:280px;height:280px;top:80px;right:-80px;"></div>
+
+  <div class="relative max-w-7xl mx-auto">
+    <div class="font-mono text-[11px] uppercase tracking-[0.28em] text-burnt mb-4">03 ·&nbsp; the roster</div>
+    <h2 class="font-display font-semibold text-navy text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-3">
+      nine <span class="text-burnt">creators</span>.
+    </h2>
+    <p class="font-display text-xl md:text-2xl text-navy/75 max-w-xl mb-10 md:mb-14">
+      Each one tapped for what only they bring. Tap a card to see what they're filming this week.
+    </p>
+
+    <div id="creators" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></div>
+  </div>
+</section>
+
+<div class="stripe-3 stripe-3-thin"><span></span><span></span><span></span></div>
+
+<!-- ======================== SCOREBOARD ======================== -->
+<section class="bg-magnolia px-5 md:px-10 py-14 md:py-24 relative overflow-hidden">
+  <div class="arc arc-aqua" style="width:280px;height:280px;bottom:-90px;left:-80px;"></div>
+
+  <div class="relative max-w-7xl mx-auto">
+    <div class="font-mono text-[11px] uppercase tracking-[0.28em] text-burnt mb-4">04 ·&nbsp; scoreboard</div>
+    <div class="flex items-end justify-between flex-wrap gap-3 mb-10 md:mb-14">
+      <h2 class="font-display font-semibold text-navy text-5xl md:text-7xl lg:text-8xl leading-[0.9]">
+        who's <span class="text-burnt">cooking</span>.
+      </h2>
+      <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-navy/60">updated weekly · production + performance</div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+      <!-- production -->
+      <div>
+        <div class="flex items-baseline justify-between mb-5">
+          <h3 class="font-display font-semibold text-3xl md:text-4xl text-navy lowercase">
+            production
+          </h3>
+          <span class="anchor anchor-aqua">VIDEOS POSTED</span>
+        </div>
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-navy/60 mb-6">Who's filming the most this season.</p>
+        <ol id="chartProduction" class="space-y-4"></ol>
+      </div>
+
+      <!-- performance -->
+      <div>
+        <div class="flex items-baseline justify-between mb-5">
+          <h3 class="font-display font-semibold text-3xl md:text-4xl text-navy lowercase">
+            performance
+          </h3>
+          <span class="anchor anchor-burnt">BEST VIDEO LIKES</span>
+        </div>
+        <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-navy/60 mb-6">Whose top clip pulled the biggest number.</p>
+        <ol id="chartPerformance" class="space-y-4"></ol>
+      </div>
+    </div>
+
+    <!-- ranked summary list -->
+    <div class="mt-14 md:mt-20">
+      <div class="font-mono text-[11px] uppercase tracking-[0.2em] text-burnt mb-4">overall ranking</div>
+      <ol id="leaderboard" class="border-t-2 border-navy"></ol>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== TOP VIDEOS ======================== -->
+<section class="bg-navy text-magnolia relative overflow-hidden">
+  <div class="arc" style="width:300px;height:300px;top:-90px;left:-80px;border:28px solid #F39D34;opacity:.16"></div>
+
+  <div class="px-5 md:px-10 py-14 md:py-24 relative max-w-7xl mx-auto">
+    <div class="font-mono text-[11px] uppercase tracking-[0.28em] text-butter mb-4">05 ·&nbsp; on the feed</div>
+    <h2 class="font-display font-semibold text-magnolia text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-3">
+      what's <span class="text-burnt">hitting</span>.
+    </h2>
+    <p class="font-display text-xl md:text-2xl text-magnolia/75 max-w-xl mb-10 md:mb-14">
+      Recent posts pulling numbers. Study the hooks. Repeat the formula.
+    </p>
+
+    <div id="topVideos" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></div>
+  </div>
+</section>
+
+<!-- ======================== FOOTER ======================== -->
+<div class="stripe-3 stripe-3-fat"><span></span><span></span><span></span></div>
+<footer class="bg-magnolia px-5 md:px-10 py-12 md:py-16">
+  <div class="max-w-7xl mx-auto grid grid-cols-12 gap-x-4 gap-y-6 items-center">
+    <div class="col-span-12 md:col-span-7">
+      <img src="assets/logo.png" alt="Mile Hi City Pickleball" class="h-20 md:h-32 w-auto">
+    </div>
+    <div class="col-span-12 md:col-span-5 font-mono text-[11px] uppercase tracking-[0.18em] text-navy/60 space-y-2 md:text-right">
+      <div>denver · colorado · 11 indoor courts</div>
+      <div><a href="https://milehicitypickleball.com" target="_blank" rel="noopener" class="uline text-navy">milehicitypickleball.com ↗</a></div>
+      <div>squad portal · v1</div>
+      <div id="footerSeason">summer '26</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ======================== CREATOR DETAIL MODAL ======================== -->
+<div id="modal" class="fixed inset-0 z-50 hidden">
+  <div class="modal-mask absolute inset-0" id="modalMask"></div>
+  <div class="modal-sheet absolute bottom-0 left-0 right-0 md:left-auto md:top-0 md:bottom-0 md:w-[640px] bg-magnolia overflow-y-auto h-[92vh] md:h-full">
+    <button id="modalClose" class="sticky top-3 ml-auto mr-3 mt-3 z-10 w-11 h-11 grid place-content-center bg-navy text-magnolia rounded-full font-mono text-xs hover:bg-burnt transition-colors" aria-label="Close">✕</button>
+    <div id="modalContent" class="px-5 md:px-10 pb-16 -mt-11"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
