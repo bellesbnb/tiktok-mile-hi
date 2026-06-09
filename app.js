@@ -272,9 +272,9 @@ function renderCreators() {
       ? `<img src="${c.photo}" alt="${c.name}" loading="lazy" class="w-full h-full object-cover">`
       : placeholderPhoto(c, i);
 
-    const likeLabel = (c.stats?.totalLikes || 0) > 0
-      ? `${fmtCompact(c.stats.totalLikes)} likes`
-      : 'first posts soon';
+    const editedCount = c.stats?.editedVideos ?? 0;
+    const igPosts = c.stats?.igPosts;
+    const igLabel = (igPosts === null || igPosts === undefined) ? 'IG —' : `IG ${fmtCompact(igPosts)}`;
 
     return `
     <article class="creator-card group" data-creator="${c.id}">
@@ -298,9 +298,12 @@ function renderCreators() {
         </div>
       </div>
 
-      <div class="flex items-center justify-between mt-3 font-mono text-[10px] uppercase tracking-[0.18em] text-navy/70">
-        <span>${c.vibe || ''}</span>
-        <span>${likeLabel}</span>
+      <div class="mt-3">
+        <div class="font-mono text-[10px] uppercase tracking-[0.18em] text-navy/70 truncate">${c.vibe || ''}</div>
+        <div class="mt-1 flex items-center justify-between font-mono text-[11px] uppercase tracking-[0.16em]">
+          <span class="text-burnt">${editedCount} <span class="text-navy/60">uploaded</span></span>
+          <span class="text-navy/80">${igLabel}</span>
+        </div>
       </div>
     </article>`;
   }).join('');
@@ -475,25 +478,34 @@ function openCreator(id) {
     <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-burnt mb-2">${c.vibe || ''}</div>
     <h2 class="phrase text-6xl md:text-7xl text-navy">${namePhrase}</h2>
 
-    <div class="grid grid-cols-3 gap-3 mt-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6">
+      <div class="bg-magnolia border-2 border-burnt p-3 rounded">
+        <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-burnt">uploaded</div>
+        <div class="font-impact text-2xl text-navy tabular-nums">${c.stats?.editedVideos ?? 0}</div>
+        <div class="font-mono text-[8px] uppercase tracking-[0.18em] text-navy/50 mt-1">edited videos</div>
+      </div>
+      <div class="bg-magnolia border-2 border-navy/15 p-3 rounded">
+        <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-burnt">ig posts</div>
+        <div class="font-impact text-2xl text-navy tabular-nums">${(c.stats?.igPosts === null || c.stats?.igPosts === undefined) ? '—' : fmtCompact(c.stats.igPosts)}</div>
+        <div class="font-mono text-[8px] uppercase tracking-[0.18em] text-navy/50 mt-1">grid total</div>
+      </div>
+      <div class="bg-magnolia border-2 border-navy/15 p-3 rounded">
+        <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-burnt">ig followers</div>
+        <div class="font-impact text-2xl text-navy tabular-nums">${(c.stats?.igFollowers === null || c.stats?.igFollowers === undefined) ? '—' : fmtCompact(c.stats.igFollowers)}</div>
+        <div class="font-mono text-[8px] uppercase tracking-[0.18em] text-navy/50 mt-1">on instagram</div>
+      </div>
       <div class="bg-magnolia border-2 border-navy/15 p-3 rounded">
         <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-burnt">likes</div>
         <div class="font-impact text-2xl text-navy tabular-nums">${fmtCompact(c.stats?.totalLikes || 0)}</div>
-      </div>
-      <div class="bg-magnolia border-2 border-navy/15 p-3 rounded">
-        <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-burnt">views</div>
-        <div class="font-impact text-2xl text-navy tabular-nums">${fmtCompact(c.stats?.totalViews || 0)}</div>
-      </div>
-      <div class="bg-magnolia border-2 border-navy/15 p-3 rounded">
-        <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-burnt">posts</div>
-        <div class="font-impact text-2xl text-navy tabular-nums">${c.stats?.videoCount || 0}</div>
+        <div class="font-mono text-[8px] uppercase tracking-[0.18em] text-navy/50 mt-1">tiktok total</div>
       </div>
     </div>
 
     <div class="mt-8 space-y-3">
       ${(c.instagram && c.instagramHandle) ? `<a href="${c.instagram}" target="_blank" rel="noopener" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">instagram</span><span class="font-display font-semibold text-xl lowercase">${c.instagramHandle} ↗</span></a>` : ''}
       ${(c.tiktok && c.tiktokHandle) ? `<a href="${c.tiktok}" target="_blank" rel="noopener" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">tiktok</span><span class="font-display font-semibold text-xl lowercase">${c.tiktokHandle} ↗</span></a>` : ''}
-      ${c.driveFolder ? `<a href="${c.driveFolder}" target="_blank" rel="noopener" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">drive folder</span><span class="font-display font-semibold text-xl lowercase">open ↗</span></a>` : ''}
+      ${c.driveFolder ? `<a href="${c.driveFolder}" target="_blank" rel="noopener" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">drive folder</span><span class="font-display font-semibold text-xl lowercase">all content ↗</span></a>` : ''}
+      ${c.editedFolder ? `<a href="${c.editedFolder}" target="_blank" rel="noopener" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">edited (post-ready)</span><span class="font-display font-semibold text-xl lowercase">open ↗</span></a>` : ''}
       ${c.email ? `<a href="mailto:${c.email}" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">email</span><span class="font-mono text-sm">${c.email}</span></a>` : ''}
       ${c.phone ? `<a href="tel:${c.phone.replace(/[^0-9+]/g,'')}" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">phone</span><span class="font-mono text-sm">${c.phone}</span></a>` : ''}
     </div>
