@@ -130,11 +130,11 @@
     {
       "id": "2",
       "name": "Caroline Ahearn",
-      "photo": null,
-      "instagram": "",
-      "instagramHandle": "",
-      "tiktok": "",
-      "tiktokHandle": "",
+      "photo": "assets/creators/caroline.jpg",
+      "instagram": "https://instagram.com/caroline.ahearn",
+      "instagramHandle": "@caroline.ahearn",
+      "tiktok": "https://tiktok.com/@caroline.ahearn",
+      "tiktokHandle": "@caroline.ahearn",
       "phone": "",
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/1whrHZN3SGL6wmAh5Sj188SzcreRMXgoR",
@@ -142,8 +142,8 @@
       "vibe": "Raws in, edits pending",
       "stats": {
         "editedVideos": 0,
-        "igPosts": null,
-        "igFollowers": null,
+        "igPosts": 9,
+        "igFollowers": 1457,
         "videoCount": 0,
         "totalLikes": 0,
         "totalViews": 0,
@@ -274,7 +274,7 @@
     {
       "id": "8",
       "name": "Quinn Gordon",
-      "photo": null,
+      "photo": "assets/creators/quinn.jpg",
       "instagram": "",
       "instagramHandle": "",
       "tiktok": "",
@@ -283,7 +283,7 @@
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
       "joined": "May 2026",
-      "vibe": "1 video at root — organize Edited subfolder",
+      "vibe": "IG/TikTok handle pending Tricia confirm",
       "stats": {
         "editedVideos": 1,
         "igPosts": null,
@@ -298,20 +298,20 @@
     {
       "id": "9",
       "name": "Jameson O.",
-      "photo": null,
-      "instagram": "",
-      "instagramHandle": "",
+      "photo": "assets/creators/jameson.jpg",
+      "instagram": "https://instagram.com/jameson.pickleball",
+      "instagramHandle": "@jameson.pickleball",
       "tiktok": "",
       "tiktokHandle": "",
       "phone": "",
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/1y8f6VDWPJgEMU3_NtOn5sbNBJjU03sEI",
       "joined": "May 2026",
-      "vibe": "1 edited — keep going",
+      "vibe": "Dedicated MHP account — 1 edited",
       "stats": {
         "editedVideos": 1,
-        "igPosts": null,
-        "igFollowers": null,
+        "igPosts": 0,
+        "igFollowers": 32,
         "videoCount": 1,
         "totalLikes": 0,
         "totalViews": 0,
@@ -332,10 +332,10 @@
     },
     "watchOuts": [
       "Jackson DeLay and Meredith Sieja still don't have Drive folders — create them",
-      "Caroline uploaded raws but zero edited videos yet — chase before Friday",
+      "Caroline uploaded raws but zero edited videos yet — chase before Sunday",
       "Maxwell only 1 edited video — needs more reps",
       "Quinn has 1 video at folder root, no Edited subfolder yet — organize",
-      "Caroline / Izzy J / Quinn / Jameson still missing IG + TikTok handles"
+      "Izzy J + Quinn IG/TikTok handles need confirmation from Tricia (sheet handles don't resolve)"
     ]
   }
 }
