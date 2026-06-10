@@ -83,6 +83,7 @@ async function boot() {
   renderHeader();
   renderWeeklyReport();
   renderTrends();
+  renderBelleComments();
   renderCreators();
   renderCharts();
   renderLeaderboard();
@@ -203,6 +204,42 @@ function renderHeader() {
   if (DATA.brand.weekLabel) {
     $('#weekLabel').textContent = DATA.brand.weekLabel.toLowerCase();
   }
+}
+
+// -------------------- BELLE COMMENTS (coaching notes) --------------------
+function renderBelleComments() {
+  const section = $('#belleComments');
+  const list = $('#belleCommentsList');
+  const comments = (DATA.belleComments || []);
+  if (!list) return;
+  if (!comments.length) { if (section) section.classList.add('hidden'); return; }
+  if (section) section.classList.remove('hidden');
+
+  // newest first
+  const sorted = [...comments].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+  list.innerHTML = sorted.map(c => {
+    const sourceClass = (c.source || '').toLowerCase() === 'tricia' ? 'anchor-burnt'
+                      : (c.source || '').toLowerCase() === 'belle'   ? 'anchor-denim'
+                      : 'anchor-navy';
+    const sourceLabel = (c.source || 'BELLE').toUpperCase();
+    const creatorName = c.creatorName || (c.creatorId ? (DATA.creators.find(x => x.id === c.creatorId) || {}).name : 'All') || 'All';
+    const isAll = (creatorName || '').toLowerCase() === 'all' || creatorName === '*';
+
+    return `
+    <li class="bg-magnolia border-2 border-navy/15 rounded-lg p-5 md:p-7 hover:border-burnt transition-colors">
+      <div class="flex flex-wrap items-center gap-3 mb-3">
+        <span class="anchor ${sourceClass}">${sourceLabel}</span>
+        <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-navy/60">${(c.date || '').toLowerCase()}</span>
+        <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-navy/50">·</span>
+        <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-navy/60">${(c.week || '').toLowerCase()}</span>
+        ${isAll
+          ? `<span class="anchor anchor-butter ml-auto">FOR EVERYONE</span>`
+          : `<span class="anchor anchor-navy ml-auto">FOR ${(creatorName || '').toUpperCase()}</span>`}
+      </div>
+      <p class="font-display text-lg md:text-xl leading-snug text-navy">${c.comment}</p>
+    </li>`;
+  }).join('');
 }
 
 // -------------------- TRENDS --------------------
