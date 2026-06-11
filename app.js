@@ -605,6 +605,36 @@ function openCreator(id) {
       ${c.phone ? `<a href="tel:${c.phone.replace(/[^0-9+]/g,'')}" class="flex items-center justify-between border-b-2 border-navy/15 pb-3 hover:border-burnt"><span class="font-mono text-[10px] uppercase tracking-[0.18em] text-burnt">phone</span><span class="font-mono text-sm">${c.phone}</span></a>` : ''}
     </div>
 
+    ${(c.editedClips && c.editedClips.length) ? `
+    <div class="mt-10">
+      <div class="flex items-baseline justify-between mb-3">
+        <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-burnt">edited this week · ${c.editedClips.length}</div>
+        ${c.editedFolder ? `<a href="${c.editedFolder}" target="_blank" rel="noopener" class="font-mono text-[10px] uppercase tracking-[0.18em] text-navy/60 hover:text-burnt">open folder ↗</a>` : ''}
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        ${c.editedClips.map(clip => `
+          <a href="https://drive.google.com/file/d/${clip.driveId}/view" target="_blank" rel="noopener" class="group block">
+            <div class="aspect-[9/12] bg-navy rounded-lg overflow-hidden relative">
+              <img
+                src="https://drive.google.com/thumbnail?id=${clip.driveId}&sz=w400"
+                alt="${clip.title || ''}"
+                loading="lazy"
+                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                onerror="this.style.display='none';this.parentElement.querySelector('.fallback').style.display='grid';">
+              <div class="fallback hidden absolute inset-0 grid place-content-center text-center p-3" style="background: linear-gradient(135deg, #003C78, #F05D38);">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="mx-auto mb-2 text-magnolia"><path d="M8 5v14l11-7L8 5z" fill="currentColor"/></svg>
+                <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-magnolia/80">video</div>
+              </div>
+              <div class="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+                <span class="font-mono text-[9px] uppercase tracking-[0.18em] bg-ink/70 backdrop-blur text-magnolia px-2 py-1">${(clip.addedAt || '').slice(5).replace('-','/')}</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#FDFFEA" class="drop-shadow"><path d="M8 5v14l11-7L8 5z"/></svg>
+              </div>
+            </div>
+            <div class="mt-2 font-display text-sm text-navy/80 lowercase truncate">${clip.title || 'untitled clip'}</div>
+          </a>`).join('')}
+      </div>
+    </div>` : ''}
+
     <div class="mt-10">
       <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-burnt mb-2">this week's assignment</div>
       ${trendsHtml}

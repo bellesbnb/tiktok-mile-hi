@@ -125,7 +125,13 @@
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit"
+      "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
+      "editedClips": [
+        { "driveId": "1ToCM_5BdEYF7yTYp3QxYke9yRLrim5ca", "title": "6/4 take 1", "addedAt": "2026-06-04" },
+        { "driveId": "1hZus_HsIrnu_RSYZe6C2scysmeTcRY7l", "title": "6/4 take 2", "addedAt": "2026-06-04" },
+        { "driveId": "1km3TTkYIuolVtjfADdRPiEz61z0wz1Cq", "title": "6/4 white", "addedAt": "2026-06-04" },
+        { "driveId": "1gk8ehys1OEfzPBaB1Luf3EM0qqbspj5W", "title": "6/4 black", "addedAt": "2026-06-04" }
+      ]
     },
     {
       "id": "2",
@@ -173,7 +179,12 @@
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/1gWzH_eWudol4o4zbYQOj0LTM2mLo_3Gl"
+      "editedFolder": "https://drive.google.com/drive/folders/1gWzH_eWudol4o4zbYQOj0LTM2mLo_3Gl",
+      "editedClips": [
+        { "driveId": "1MJrBtqBt3J7memyE9NexAf-Humm1zZc7", "title": "final video 1 · 6/4", "addedAt": "2026-06-04" },
+        { "driveId": "1wUqbPC1Mu3AgIVw69y15lKpzVSQYbkAN", "title": "final video 2 · 6/4", "addedAt": "2026-06-04" },
+        { "driveId": "1lB53gcULvxV2QVqDmWXUMyYn6sxa7bT5", "title": "final video 3 · 6/4", "addedAt": "2026-06-04" }
+      ]
     },
     {
       "id": "4",
@@ -187,17 +198,22 @@
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/1DnOOt7te3_NDCjryFmL_192PHDZ_Y1tj",
       "joined": "May 2026",
-      "vibe": "First mover · 1 video at root",
+      "vibe": "Producing fast · 3 clips this week",
       "stats": {
-        "editedVideos": 1,
+        "editedVideos": 3,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 1,
+        "videoCount": 3,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/1DnOOt7te3_NDCjryFmL_192PHDZ_Y1tj"
+      "editedFolder": "https://drive.google.com/drive/folders/1DnOOt7te3_NDCjryFmL_192PHDZ_Y1tj",
+      "editedClips": [
+        { "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h", "title": "content 1 · 5/30", "addedAt": "2026-05-30" },
+        { "driveId": "1b72HooFy8J2DxsfeQenMiWNkb8y_IiEb", "title": "content 2 · 6/10", "addedAt": "2026-06-10" },
+        { "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE", "title": "content 3 · 6/10", "addedAt": "2026-06-10" }
+      ]
     },
     {
       "id": "5",
@@ -245,7 +261,10 @@
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C"
+      "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C",
+      "editedClips": [
+        { "driveId": "1THvazjICQlYSg1BVpmlszNOsX1EO5YaW", "title": "first edit · 6/8", "addedAt": "2026-06-08" }
+      ]
     },
     {
       "id": "7",
@@ -283,17 +302,21 @@
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
       "joined": "May 2026",
-      "vibe": "IG/TikTok handle pending Tricia confirm",
+      "vibe": "2 videos at root · IG/TikTok pending confirm",
       "stats": {
-        "editedVideos": 1,
+        "editedVideos": 2,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 1,
+        "videoCount": 2,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7"
+      "editedFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
+      "editedClips": [
+        { "driveId": "1VzNI4O-YTSWJa8xfFKq3mucfNPwTz6k7", "title": "pickleball 01 · 6/8", "addedAt": "2026-06-08" },
+        { "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P", "title": "pickleball 02 · 6/8", "addedAt": "2026-06-08" }
+      ]
     },
     {
       "id": "9",
@@ -307,17 +330,21 @@
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/1y8f6VDWPJgEMU3_NtOn5sbNBJjU03sEI",
       "joined": "May 2026",
-      "vibe": "Dedicated MHP account · 1 edited",
+      "vibe": "Dedicated MHP account · 2 edited",
       "stats": {
-        "editedVideos": 1,
+        "editedVideos": 2,
         "igPosts": 0,
         "igFollowers": 32,
-        "videoCount": 1,
+        "videoCount": 2,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/16anZATQXyzz6SlMO6JAmnDT_MabWKCw1"
+      "editedFolder": "https://drive.google.com/drive/folders/16anZATQXyzz6SlMO6JAmnDT_MabWKCw1",
+      "editedClips": [
+        { "driveId": "1k_z6TPDHeZASpGQbDdS1TkgtvWiwK7zq", "title": "Jameson 6/4", "addedAt": "2026-06-04" },
+        { "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e", "title": "Jameson 6/9", "addedAt": "2026-06-09" }
+      ]
     }
   ],
   "topVideos": [],
@@ -415,8 +442,9 @@
       "Jackson DeLay and Meredith Sieja still don't have Drive folders · create them",
       "Caroline uploaded raws but zero edited videos yet · chase before Sunday",
       "Maxwell only 1 edited video · needs more reps",
-      "Quinn has 1 video at folder root, no Edited subfolder yet · organize",
+      "Izzy and Quinn still uploading to folder root instead of an Edited subfolder · organize",
       "Izzy J + Quinn IG/TikTok handles need confirmation from Tricia (sheet handles don't resolve)"
-    ]
+    ],
+    "production": "15 edited videos across the squad this week. Annie leads with 4; Izzy J jumped to 3 (was 1); Ellie holds 3; Jameson + Quinn at 2 each; Maxwell at 1; Caroline, Jackson, Meredith at 0."
   }
 }
