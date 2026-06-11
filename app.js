@@ -237,7 +237,7 @@ function renderBelleComments() {
             return `
             <figure class="bg-paper border-2 border-navy/10 rounded-lg overflow-hidden">
               <div class="relative aspect-[9/12] bg-navy/5 overflow-hidden">
-                <img src="${img.src}" alt="${imgCreator} — ${cap}" loading="lazy" class="w-full h-full object-cover">
+                <img src="${img.src}" alt="${imgCreator} · ${cap}" loading="lazy" class="w-full h-full object-cover">
                 <!-- label top-left -->
                 <div class="absolute top-2 left-2">
                   <span class="anchor anchor-denim text-[10px] py-1 px-2">${label.toUpperCase()}</span>
@@ -258,9 +258,34 @@ function renderBelleComments() {
         </div>`
       : '';
 
+    // Structured body: intro + rules grid + outro (Belle's new schema)
+    // Falls back to plain `comment` for legacy entries (Tricia + older notes)
+    const introHtml = c.intro
+      ? `<p class="font-display text-lg md:text-xl leading-snug text-navy">${c.intro}</p>`
+      : '';
+
+    const rulesHtml = (c.rules && c.rules.length)
+      ? `<div class="mt-5 md:mt-6 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+          ${c.rules.map(r => `
+            <div class="bg-paper border-2 border-navy/10 rounded-lg p-4 md:p-5">
+              <div class="font-impact text-burnt text-3xl md:text-4xl leading-none mb-2">${r.n || ''}</div>
+              <h3 class="font-display font-semibold text-navy text-lg md:text-xl lowercase leading-tight mb-2">${r.title || ''}</h3>
+              <p class="font-display text-sm md:text-base text-navy/80 leading-snug">${r.body || ''}</p>
+            </div>`).join('')}
+        </div>`
+      : '';
+
+    const outroHtml = c.outro
+      ? `<p class="font-display text-lg md:text-xl leading-snug text-navy mt-5 md:mt-6">${c.outro}</p>`
+      : '';
+
+    const legacyHtml = (c.comment && !c.intro && !c.rules)
+      ? `<p class="font-display text-lg md:text-xl leading-snug text-navy">${c.comment}</p>`
+      : '';
+
     return `
     <li class="bg-magnolia border-2 border-navy/15 rounded-lg p-5 md:p-7 hover:border-burnt transition-colors">
-      <div class="flex flex-wrap items-center gap-3 mb-3">
+      <div class="flex flex-wrap items-center gap-3 mb-4">
         <span class="anchor ${sourceClass}">${sourceLabel}</span>
         <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-navy/60">${(c.date || '').toLowerCase()}</span>
         <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-navy/50">·</span>
@@ -269,7 +294,7 @@ function renderBelleComments() {
           ? `<span class="anchor anchor-butter ml-auto">FOR EVERYONE</span>`
           : `<span class="anchor anchor-navy ml-auto">FOR ${(creatorName || '').toUpperCase()}</span>`}
       </div>
-      <p class="font-display text-lg md:text-xl leading-snug text-navy">${c.comment}</p>
+      ${legacyHtml}${introHtml}${rulesHtml}${outroHtml}
       ${imagesHtml}
     </li>`;
   }).join('');
@@ -527,7 +552,7 @@ function openCreator(id) {
           </div>
         </article>`;
       }).join('')
-    : `<p class="text-navy/70 mt-4 font-display text-xl">No trends assigned this week. Stand by — Belle is cooking something.</p>`;
+    : `<p class="text-navy/70 mt-4 font-display text-xl">No trends assigned this week. Stand by, Belle is cooking something.</p>`;
 
   // name phrase
   const parts = (c.name || '').split(' ');
