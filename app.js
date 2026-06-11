@@ -226,6 +226,38 @@ function renderBelleComments() {
     const creatorName = c.creatorName || (c.creatorId ? (DATA.creators.find(x => x.id === c.creatorId) || {}).name : 'All') || 'All';
     const isAll = (creatorName || '').toLowerCase() === 'all' || creatorName === '*';
 
+    // Images attached to the comment (optional). Each image:
+    // { src, label?, creatorName?, creatorId?, caption }
+    const imagesHtml = (c.images && c.images.length)
+      ? `<div class="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          ${c.images.map((img, i) => {
+            const imgCreator = img.creatorName || (img.creatorId ? (DATA.creators.find(x => x.id === img.creatorId) || {}).name : '') || '';
+            const label = img.label || `image ${i + 1}`;
+            const cap = img.caption || '';
+            return `
+            <figure class="bg-paper border-2 border-navy/10 rounded-lg overflow-hidden">
+              <div class="relative aspect-[9/12] bg-navy/5 overflow-hidden">
+                <img src="${img.src}" alt="${imgCreator} — ${cap}" loading="lazy" class="w-full h-full object-cover">
+                <!-- label top-left -->
+                <div class="absolute top-2 left-2">
+                  <span class="anchor anchor-denim text-[10px] py-1 px-2">${label.toUpperCase()}</span>
+                </div>
+                <!-- X / fix icon top-right -->
+                <div class="absolute top-2 right-2 w-8 h-8 grid place-content-center rounded-full bg-burnt text-magnolia shadow-md" title="needs a tweak">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path d="M2 2L12 12M12 2L2 12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+              <figcaption class="p-3">
+                ${imgCreator ? `<div class="font-display font-semibold text-navy text-lg leading-tight lowercase">${imgCreator}</div>` : ''}
+                ${cap ? `<p class="font-display text-sm text-navy/80 leading-snug mt-1">${cap}</p>` : ''}
+              </figcaption>
+            </figure>`;
+          }).join('')}
+        </div>`
+      : '';
+
     return `
     <li class="bg-magnolia border-2 border-navy/15 rounded-lg p-5 md:p-7 hover:border-burnt transition-colors">
       <div class="flex flex-wrap items-center gap-3 mb-3">
@@ -238,6 +270,7 @@ function renderBelleComments() {
           : `<span class="anchor anchor-navy ml-auto">FOR ${(creatorName || '').toUpperCase()}</span>`}
       </div>
       <p class="font-display text-lg md:text-xl leading-snug text-navy">${c.comment}</p>
+      ${imagesHtml}
     </li>`;
   }).join('');
 }
