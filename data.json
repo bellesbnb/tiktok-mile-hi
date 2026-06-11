@@ -198,21 +198,22 @@
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/1DnOOt7te3_NDCjryFmL_192PHDZ_Y1tj",
       "joined": "May 2026",
-      "vibe": "Producing fast · 3 clips this week",
+      "vibe": "Producing fast · 4 clips this week",
       "stats": {
-        "editedVideos": 3,
+        "editedVideos": 4,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 3,
+        "videoCount": 4,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/1DnOOt7te3_NDCjryFmL_192PHDZ_Y1tj",
+      "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
-        { "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h", "title": "content 1 · 5/30", "addedAt": "2026-05-30" },
+        { "driveId": "1peR8LvVpNPuYChbZL3hhvk4et_Nna2iF", "title": "content 5 · 6/11", "addedAt": "2026-06-11" },
+        { "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE", "title": "content 3 · 6/10", "addedAt": "2026-06-10" },
         { "driveId": "1b72HooFy8J2DxsfeQenMiWNkb8y_IiEb", "title": "content 2 · 6/10", "addedAt": "2026-06-10" },
-        { "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE", "title": "content 3 · 6/10", "addedAt": "2026-06-10" }
+        { "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h", "title": "content 1 · 5/30", "addedAt": "2026-05-30" }
       ]
     },
     {
@@ -432,19 +433,18 @@
   "weeklyReport": {
     "weekOf": "Jun 8 · Jun 14",
     "generatedAt": "2026-06-08T07:00:00Z",
-    "summary": "First week · squad is filming, numbers come next Monday. This week: Charli XCX 'Rock Music' glitch reveal (real trending sound, post by Wed), Saxboy Billy 'Puerto Rico Song' first-visit POV, tenniscore transformation tied to 70M-view aesthetic, and Olivia Rodrigo album drop social-proof moment (drops June 12 · film then).",
+    "summary": "Production is rolling, 16 edited clips already in Drive this week. Top of the squad at 4 edits, median jumped to 2. Four trends live (Charli XCX glitch reveal, first-visit POV, tenniscore transformation, Olivia Rodrigo album moment). Live TikTok numbers come once the posts start hitting feeds.",
     "topVideo": null,
     "topCreator": {
-      "name": "Annie Turner",
-      "reason": "4 edited videos uploaded · most production this week"
+      "name": "The squad",
+      "reason": "16 edits this week, biggest production push yet. Two creators tied at 4, three at 2 or 3, real momentum across the roster."
     },
     "watchOuts": [
-      "Jackson DeLay and Meredith Sieja still don't have Drive folders · create them",
-      "Caroline uploaded raws but zero edited videos yet · chase before Sunday",
-      "Maxwell only 1 edited video · needs more reps",
-      "Izzy and Quinn still uploading to folder root instead of an Edited subfolder · organize",
-      "Izzy J + Quinn IG/TikTok handles need confirmation from Tricia (sheet handles don't resolve)"
+      "Two creators still don't have a Drive folder set up. If that's you, ping Tricia so we can get yours created this week.",
+      "A few creators are sitting on raws with no edits yet. If that's you, drop one edit before Sunday and you're locked in for the week.",
+      "Reminder: name your post-ready folder 'Edited' (not 'Completed Vidoes' or root level) so the auto-counter picks it up cleanly.",
+      "If your IG handle on the sheet doesn't match the account you actually use, send Belle the right one. The leaderboard pulls from there."
     ],
-    "production": "15 edited videos across the squad this week. Annie leads with 4; Izzy J jumped to 3 (was 1); Ellie holds 3; Jameson + Quinn at 2 each; Maxwell at 1; Caroline, Jackson, Meredith at 0."
+    "production": "16 edited videos across the squad this week, up from 11 last check. Top of production hit 4 edits; the median jumped to 2. Several creators went from 1 to 2 or 3, that momentum is the goal."
   }
 }
