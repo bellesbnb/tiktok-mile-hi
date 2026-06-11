@@ -127,10 +127,26 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
-        { "driveId": "1hZus_HsIrnu_RSYZe6C2scysmeTcRY7l", "title": "6/4/26 2", "addedAt": "2026-06-04" },
-        { "driveId": "1ToCM_5BdEYF7yTYp3QxYke9yRLrim5ca", "title": "6/4/26", "addedAt": "2026-06-04" },
-        { "driveId": "1gk8ehys1OEfzPBaB1Luf3EM0qqbspj5W", "title": "6/4/26 black", "addedAt": "2026-06-04" },
-        { "driveId": "1km3TTkYIuolVtjfADdRPiEz61z0wz1Cq", "title": "6/4/26 white", "addedAt": "2026-06-04" }
+        {
+          "driveId": "1hZus_HsIrnu_RSYZe6C2scysmeTcRY7l",
+          "title": "6/4 take 2",
+          "addedAt": "2026-06-04"
+        },
+        {
+          "driveId": "1ToCM_5BdEYF7yTYp3QxYke9yRLrim5ca",
+          "title": "6/4 take 1",
+          "addedAt": "2026-06-04"
+        },
+        {
+          "driveId": "1gk8ehys1OEfzPBaB1Luf3EM0qqbspj5W",
+          "title": "6/4 black",
+          "addedAt": "2026-06-04"
+        },
+        {
+          "driveId": "1km3TTkYIuolVtjfADdRPiEz61z0wz1Cq",
+          "title": "6/4 white",
+          "addedAt": "2026-06-04"
+        }
       ]
     },
     {
@@ -181,9 +197,21 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/1gWzH_eWudol4o4zbYQOj0LTM2mLo_3Gl",
       "editedClips": [
-        { "driveId": "1MJrBtqBt3J7memyE9NexAf-Humm1zZc7", "title": "final video 1 - 6/4", "addedAt": "2026-06-04" },
-        { "driveId": "1lB53gcULvxV2QVqDmWXUMyYn6sxa7bT5", "title": "final video 3 - 6/4", "addedAt": "2026-06-04" },
-        { "driveId": "1wUqbPC1Mu3AgIVw69y15lKpzVSQYbkAN", "title": "final video 2 - 6/4", "addedAt": "2026-06-04" }
+        {
+          "driveId": "1MJrBtqBt3J7memyE9NexAf-Humm1zZc7",
+          "title": "final video 1 · 6/4",
+          "addedAt": "2026-06-04"
+        },
+        {
+          "driveId": "1lB53gcULvxV2QVqDmWXUMyYn6sxa7bT5",
+          "title": "final video 3 · 6/4",
+          "addedAt": "2026-06-04"
+        },
+        {
+          "driveId": "1wUqbPC1Mu3AgIVw69y15lKpzVSQYbkAN",
+          "title": "final video 2 · 6/4",
+          "addedAt": "2026-06-04"
+        }
       ]
     },
     {
@@ -210,10 +238,26 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
-        { "driveId": "1peR8LvVpNPuYChbZL3hhvk4et_Nna2iF", "title": "content 5", "addedAt": "2026-06-11" },
-        { "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE", "title": "content 3 6/10", "addedAt": "2026-06-10" },
-        { "driveId": "1b72HooFy8J2DxsfeQenMiWNkb8y_IiEb", "title": "content 2 6/10/26", "addedAt": "2026-06-10" },
-        { "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h", "title": "izzy/content1 5/30/26", "addedAt": "2026-05-30" }
+        {
+          "driveId": "1peR8LvVpNPuYChbZL3hhvk4et_Nna2iF",
+          "title": "content 5 · 6/11",
+          "addedAt": "2026-06-11"
+        },
+        {
+          "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE",
+          "title": "content 3 · 6/10",
+          "addedAt": "2026-06-10"
+        },
+        {
+          "driveId": "1b72HooFy8J2DxsfeQenMiWNkb8y_IiEb",
+          "title": "content 2 · 6/10",
+          "addedAt": "2026-06-10"
+        },
+        {
+          "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h",
+          "title": "content 1 · 5/30",
+          "addedAt": "2026-05-30"
+        }
       ]
     },
     {
@@ -264,7 +308,11 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C",
       "editedClips": [
-        { "driveId": "1THvazjICQlYSg1BVpmlszNOsX1EO5YaW", "title": "clip 1", "addedAt": "2026-06-08" }
+        {
+          "driveId": "1THvazjICQlYSg1BVpmlszNOsX1EO5YaW",
+          "title": "first edit · 6/8",
+          "addedAt": "2026-06-08"
+        }
       ]
     },
     {
@@ -315,8 +363,16 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
       "editedClips": [
-        { "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P", "title": "pickleball 02", "addedAt": "2026-06-09" },
-        { "driveId": "1VzNI4O-YTSWJa8xfFKq3mucfNPwTz6k7", "title": "pickleball 01", "addedAt": "2026-06-09" }
+        {
+          "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P",
+          "title": "pickleball 02 · 6/8",
+          "addedAt": "2026-06-09"
+        },
+        {
+          "driveId": "1VzNI4O-YTSWJa8xfFKq3mucfNPwTz6k7",
+          "title": "pickleball 01 · 6/8",
+          "addedAt": "2026-06-09"
+        }
       ]
     },
     {
@@ -343,8 +399,16 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/16anZATQXyzz6SlMO6JAmnDT_MabWKCw1",
       "editedClips": [
-        { "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e", "title": "Jameson ODonnell 060926", "addedAt": "2026-06-10" },
-        { "driveId": "1k_z6TPDHeZASpGQbDdS1TkgtvWiwK7zq", "title": "JamesonODonnell06/04/26", "addedAt": "2026-06-04" }
+        {
+          "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e",
+          "title": "Jameson 6/9",
+          "addedAt": "2026-06-10"
+        },
+        {
+          "driveId": "1k_z6TPDHeZASpGQbDdS1TkgtvWiwK7zq",
+          "title": "Jameson 6/4",
+          "addedAt": "2026-06-04"
+        }
       ]
     }
   ],
@@ -401,16 +465,56 @@
       ],
       "outro": "For everyone just starting · you're doing GREAT. These are small tweaks, not rewrites. Pick the 2 easiest for you and lock them in this week. The squad that iterates wins.",
       "images": [
-        { "src": "assets/feedback/wk24-01-wrong-paddle.png", "label": "image 1", "caption": "Wrong paddle (Monarch). Use the Mile Hi JOOLA paddle. The brand paddle IS the signal on the FYP." },
-        { "src": "assets/feedback/wk24-02-caption-bottom.png", "label": "image 2", "caption": "Caption parked at the bottom. Pull it to center or slightly above. Nobody reads the lower third." },
-        { "src": "assets/feedback/wk24-03-caption-blends-in.png", "label": "image 3", "caption": "Caption blends into the background. Switch to white text with a black outline so it pops on any shot." },
-        { "src": "assets/feedback/wk24-04-no-caption.png", "label": "image 4", "caption": "Story shot with no caption. Every clip needs text on screen, even the establishing ones. Tell the viewer what they're looking at in 2 seconds." },
-        { "src": "assets/feedback/wk24-05-dance-no-paddles-mirrored.png", "label": "image 5", "caption": "Dance shot with no paddles in hand AND the logo on the wall is mirrored (filmed front-facing without flipping back). Keep paddles in the frame on dance trends, and un-mirror your front-camera clips." },
-        { "src": "assets/feedback/wk24-06-pov-format-off.png", "label": "image 6", "caption": "POV format is off. Use 'mile hi : POV' (logo, then colon, then POV in all caps). Lock this format every time." },
-        { "src": "assets/feedback/wk24-07-no-black-and-white.png", "label": "image 7", "caption": "Black-and-white / desaturated filter. Mile Hi is color + court + energy. No grayscale, no moody." },
-        { "src": "assets/feedback/wk24-08-pov-format-off-2.png", "label": "image 8", "caption": "POV without the colon + the logo prefix. Same fix as image 6 · 'mile hi : POV' is the format." },
-        { "src": "assets/feedback/wk24-09-caption-font-off.png", "label": "image 9", "caption": "Caption font doesn't match the squad recipe. Quicksand Bold lowercase + Anton caps for the punch word. Same across everyone, every video." },
-        { "src": "assets/feedback/wk24-10-caption-bottom-overlap.png", "label": "image 10", "caption": "Caption at the bottom AND overlapping the orange court line. Hard to read. Center the text or push it slightly above middle." }
+        {
+          "src": "assets/feedback/wk24-01-wrong-paddle.png",
+          "label": "image 1",
+          "caption": "Wrong paddle (Monarch). Use the Mile Hi JOOLA paddle. The brand paddle IS the signal on the FYP."
+        },
+        {
+          "src": "assets/feedback/wk24-02-caption-bottom.png",
+          "label": "image 2",
+          "caption": "Caption parked at the bottom. Pull it to center or slightly above. Nobody reads the lower third."
+        },
+        {
+          "src": "assets/feedback/wk24-03-caption-blends-in.png",
+          "label": "image 3",
+          "caption": "Caption blends into the background. Switch to white text with a black outline so it pops on any shot."
+        },
+        {
+          "src": "assets/feedback/wk24-04-no-caption.png",
+          "label": "image 4",
+          "caption": "Story shot with no caption. Every clip needs text on screen, even the establishing ones. Tell the viewer what they're looking at in 2 seconds."
+        },
+        {
+          "src": "assets/feedback/wk24-05-dance-no-paddles-mirrored.png",
+          "label": "image 5",
+          "caption": "Dance shot with no paddles in hand AND the logo on the wall is mirrored (filmed front-facing without flipping back). Keep paddles in the frame on dance trends, and un-mirror your front-camera clips."
+        },
+        {
+          "src": "assets/feedback/wk24-06-pov-format-off.png",
+          "label": "image 6",
+          "caption": "POV format is off. Use 'mile hi : POV' (logo, then colon, then POV in all caps). Lock this format every time."
+        },
+        {
+          "src": "assets/feedback/wk24-07-no-black-and-white.png",
+          "label": "image 7",
+          "caption": "Black-and-white / desaturated filter. Mile Hi is color + court + energy. No grayscale, no moody."
+        },
+        {
+          "src": "assets/feedback/wk24-08-pov-format-off-2.png",
+          "label": "image 8",
+          "caption": "POV without the colon + the logo prefix. Same fix as image 6 · 'mile hi : POV' is the format."
+        },
+        {
+          "src": "assets/feedback/wk24-09-caption-font-off.png",
+          "label": "image 9",
+          "caption": "Caption font doesn't match the squad recipe. Quicksand Bold lowercase + Anton caps for the punch word. Same across everyone, every video."
+        },
+        {
+          "src": "assets/feedback/wk24-10-caption-bottom-overlap.png",
+          "label": "image 10",
+          "caption": "Caption at the bottom AND overlapping the orange court line. Hard to read. Center the text or push it slightly above middle."
+        }
       ]
     },
     {
