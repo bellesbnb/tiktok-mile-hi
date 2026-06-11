@@ -127,10 +127,10 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
-        { "driveId": "1ToCM_5BdEYF7yTYp3QxYke9yRLrim5ca", "title": "6/4 take 1", "addedAt": "2026-06-04" },
-        { "driveId": "1hZus_HsIrnu_RSYZe6C2scysmeTcRY7l", "title": "6/4 take 2", "addedAt": "2026-06-04" },
-        { "driveId": "1km3TTkYIuolVtjfADdRPiEz61z0wz1Cq", "title": "6/4 white", "addedAt": "2026-06-04" },
-        { "driveId": "1gk8ehys1OEfzPBaB1Luf3EM0qqbspj5W", "title": "6/4 black", "addedAt": "2026-06-04" }
+        { "driveId": "1hZus_HsIrnu_RSYZe6C2scysmeTcRY7l", "title": "6/4/26 2", "addedAt": "2026-06-04" },
+        { "driveId": "1ToCM_5BdEYF7yTYp3QxYke9yRLrim5ca", "title": "6/4/26", "addedAt": "2026-06-04" },
+        { "driveId": "1gk8ehys1OEfzPBaB1Luf3EM0qqbspj5W", "title": "6/4/26 black", "addedAt": "2026-06-04" },
+        { "driveId": "1km3TTkYIuolVtjfADdRPiEz61z0wz1Cq", "title": "6/4/26 white", "addedAt": "2026-06-04" }
       ]
     },
     {
@@ -181,9 +181,9 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/1gWzH_eWudol4o4zbYQOj0LTM2mLo_3Gl",
       "editedClips": [
-        { "driveId": "1MJrBtqBt3J7memyE9NexAf-Humm1zZc7", "title": "final video 1 · 6/4", "addedAt": "2026-06-04" },
-        { "driveId": "1wUqbPC1Mu3AgIVw69y15lKpzVSQYbkAN", "title": "final video 2 · 6/4", "addedAt": "2026-06-04" },
-        { "driveId": "1lB53gcULvxV2QVqDmWXUMyYn6sxa7bT5", "title": "final video 3 · 6/4", "addedAt": "2026-06-04" }
+        { "driveId": "1MJrBtqBt3J7memyE9NexAf-Humm1zZc7", "title": "final video 1 - 6/4", "addedAt": "2026-06-04" },
+        { "driveId": "1lB53gcULvxV2QVqDmWXUMyYn6sxa7bT5", "title": "final video 3 - 6/4", "addedAt": "2026-06-04" },
+        { "driveId": "1wUqbPC1Mu3AgIVw69y15lKpzVSQYbkAN", "title": "final video 2 - 6/4", "addedAt": "2026-06-04" }
       ]
     },
     {
@@ -210,10 +210,10 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
-        { "driveId": "1peR8LvVpNPuYChbZL3hhvk4et_Nna2iF", "title": "content 5 · 6/11", "addedAt": "2026-06-11" },
-        { "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE", "title": "content 3 · 6/10", "addedAt": "2026-06-10" },
-        { "driveId": "1b72HooFy8J2DxsfeQenMiWNkb8y_IiEb", "title": "content 2 · 6/10", "addedAt": "2026-06-10" },
-        { "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h", "title": "content 1 · 5/30", "addedAt": "2026-05-30" }
+        { "driveId": "1peR8LvVpNPuYChbZL3hhvk4et_Nna2iF", "title": "content 5", "addedAt": "2026-06-11" },
+        { "driveId": "1UECQTxatkwVaI2VWeuMCM4V9h4cSZ-EE", "title": "content 3 6/10", "addedAt": "2026-06-10" },
+        { "driveId": "1b72HooFy8J2DxsfeQenMiWNkb8y_IiEb", "title": "content 2 6/10/26", "addedAt": "2026-06-10" },
+        { "driveId": "1uLXcDC1E12S64rVODjOtBGWXgdGpuM5h", "title": "izzy/content1 5/30/26", "addedAt": "2026-05-30" }
       ]
     },
     {
@@ -264,7 +264,7 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C",
       "editedClips": [
-        { "driveId": "1THvazjICQlYSg1BVpmlszNOsX1EO5YaW", "title": "first edit · 6/8", "addedAt": "2026-06-08" }
+        { "driveId": "1THvazjICQlYSg1BVpmlszNOsX1EO5YaW", "title": "clip 1", "addedAt": "2026-06-08" }
       ]
     },
     {
@@ -315,8 +315,8 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
       "editedClips": [
-        { "driveId": "1VzNI4O-YTSWJa8xfFKq3mucfNPwTz6k7", "title": "pickleball 01 · 6/8", "addedAt": "2026-06-08" },
-        { "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P", "title": "pickleball 02 · 6/8", "addedAt": "2026-06-08" }
+        { "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P", "title": "pickleball 02", "addedAt": "2026-06-09" },
+        { "driveId": "1VzNI4O-YTSWJa8xfFKq3mucfNPwTz6k7", "title": "pickleball 01", "addedAt": "2026-06-09" }
       ]
     },
     {
@@ -343,8 +343,8 @@
       },
       "editedFolder": "https://drive.google.com/drive/folders/16anZATQXyzz6SlMO6JAmnDT_MabWKCw1",
       "editedClips": [
-        { "driveId": "1k_z6TPDHeZASpGQbDdS1TkgtvWiwK7zq", "title": "Jameson 6/4", "addedAt": "2026-06-04" },
-        { "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e", "title": "Jameson 6/9", "addedAt": "2026-06-09" }
+        { "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e", "title": "Jameson ODonnell 060926", "addedAt": "2026-06-10" },
+        { "driveId": "1k_z6TPDHeZASpGQbDdS1TkgtvWiwK7zq", "title": "JamesonODonnell06/04/26", "addedAt": "2026-06-04" }
       ]
     }
   ],
@@ -445,6 +445,6 @@
       "Reminder: name your post-ready folder 'Edited' (not 'Completed Vidoes' or root level) so the auto-counter picks it up cleanly.",
       "If your IG handle on the sheet doesn't match the account you actually use, send Belle the right one. The leaderboard pulls from there."
     ],
-    "production": "16 edited videos across the squad this week, up from 11 last check. Top of production hit 4 edits; the median jumped to 2. Several creators went from 1 to 2 or 3, that momentum is the goal."
+    "production": "16 edited videos across the squad this week. Top of production at 4, median at 2."
   }
 }
