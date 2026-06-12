@@ -298,16 +298,26 @@
       "joined": "May 2026",
       "vibe": "1 edited · needs more reps",
       "stats": {
-        "editedVideos": 1,
+        "editedVideos": 3,
         "igPosts": 0,
         "igFollowers": 319,
-        "videoCount": 1,
+        "videoCount": 3,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C",
       "editedClips": [
+        {
+          "driveId": "1sXGQm8UugbBYA05PlJZKtJr_8KyPTsOg",
+          "title": "clip 6/12",
+          "addedAt": "2026-06-12"
+        },
+        {
+          "driveId": "1fAX1jHQ5oU5VtE6SnD7IuGLmYT2vSvJd",
+          "title": "clip 6/12",
+          "addedAt": "2026-06-12"
+        },
         {
           "driveId": "1THvazjICQlYSg1BVpmlszNOsX1EO5YaW",
           "title": "first edit · 6/8",
@@ -549,6 +559,6 @@
       "Reminder: name your post-ready folder 'Edited' (not 'Completed Vidoes' or root level) so the auto-counter picks it up cleanly.",
       "If your IG handle on the sheet doesn't match the account you actually use, send Belle the right one. The leaderboard pulls from there."
     ],
-    "production": "16 edited videos across the squad this week. Top of production at 4, median at 2."
+    "production": "18 edited videos across the squad this week. Top of production at 4, median at 2."
   }
 }
