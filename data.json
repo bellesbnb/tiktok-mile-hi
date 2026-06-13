@@ -399,16 +399,21 @@
       "joined": "May 2026",
       "vibe": "Dedicated MHP account · 2 edited",
       "stats": {
-        "editedVideos": 2,
+        "editedVideos": 3,
         "igPosts": 0,
         "igFollowers": 32,
-        "videoCount": 2,
+        "videoCount": 3,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/16anZATQXyzz6SlMO6JAmnDT_MabWKCw1",
       "editedClips": [
+        {
+          "driveId": "1LtHfDIdK5fBArFNZXoyZkTjzmPQqHjFd",
+          "title": "jamesonodonnell061226",
+          "addedAt": "2026-06-13"
+        },
         {
           "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e",
           "title": "Jameson 6/9",
@@ -559,6 +564,6 @@
       "Reminder: name your post-ready folder 'Edited' (not 'Completed Vidoes' or root level) so the auto-counter picks it up cleanly.",
       "If your IG handle on the sheet doesn't match the account you actually use, send Belle the right one. The leaderboard pulls from there."
     ],
-    "production": "18 edited videos across the squad this week. Top of production at 4, median at 2."
+    "production": "19 edited videos across the squad this week. Top of production at 4, median at 3."
   }
 }
