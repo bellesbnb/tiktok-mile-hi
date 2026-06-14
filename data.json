@@ -163,15 +163,37 @@
       "joined": "May 2026",
       "vibe": "Raws in, edits pending",
       "stats": {
-        "editedVideos": 0,
+        "editedVideos": 4,
         "igPosts": 9,
         "igFollowers": 1457,
-        "videoCount": 0,
+        "videoCount": 4,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/1DqHe-NznelOogBpNzZUsaNG86jQN7Co8"
+      "editedFolder": "https://drive.google.com/drive/folders/1DqHe-NznelOogBpNzZUsaNG86jQN7Co8",
+      "editedClips": [
+        {
+          "driveId": "14gKhgIWKWyAeVfq3VjkGrX5Td5qKFOqu",
+          "title": "clip 6/14",
+          "addedAt": "2026-06-14"
+        },
+        {
+          "driveId": "1k4c9WcAlqWSN1JWCzc93V5WgJn_urioq",
+          "title": "clip 6/14",
+          "addedAt": "2026-06-14"
+        },
+        {
+          "driveId": "1by5-PvUslwc1giOkNef8Z--cXvLv7Sqp",
+          "title": "clip 6/14",
+          "addedAt": "2026-06-14"
+        },
+        {
+          "driveId": "1Z3AdO5vl9--ALQ0DHBqsgxqglZKMgNjG",
+          "title": "clip 6/14",
+          "addedAt": "2026-06-14"
+        }
+      ]
     },
     {
       "id": "3",
@@ -226,18 +248,23 @@
       "email": "",
       "driveFolder": "https://drive.google.com/drive/folders/1DnOOt7te3_NDCjryFmL_192PHDZ_Y1tj",
       "joined": "May 2026",
-      "vibe": "Producing fast · 4 clips this week",
+      "vibe": "Producing fast · 5 clips this week",
       "stats": {
-        "editedVideos": 4,
+        "editedVideos": 5,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 4,
+        "videoCount": 5,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
+        {
+          "driveId": "1pPJhmOvEuxI7rkffMm3iF4UJuDM6fxft",
+          "title": "content 6 · 6/13",
+          "addedAt": "2026-06-13"
+        },
         {
           "driveId": "1peR8LvVpNPuYChbZL3hhvk4et_Nna2iF",
           "title": "content 5 · 6/11",
@@ -564,6 +591,6 @@
       "Reminder: name your post-ready folder 'Edited' (not 'Completed Vidoes' or root level) so the auto-counter picks it up cleanly.",
       "If your IG handle on the sheet doesn't match the account you actually use, send Belle the right one. The leaderboard pulls from there."
     ],
-    "production": "19 edited videos across the squad this week. Top of production at 4, median at 3."
+    "production": "24 edited videos across the squad this week. Top of production at 5, median at 3."
   }
 }
