@@ -117,16 +117,36 @@
       "joined": "May 2026",
       "vibe": "Production leader · 4 edited",
       "stats": {
-        "editedVideos": 4,
+        "editedVideos": 8,
         "igPosts": 8,
         "igFollowers": 913,
-        "videoCount": 4,
+        "videoCount": 8,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
+        {
+          "driveId": "14UJld2kOyUnJzM4LNEY5kPNxQFxaHhwF",
+          "title": "6/14/26 net",
+          "addedAt": "2026-06-15"
+        },
+        {
+          "driveId": "12Y7WkVUU-32OjzbSA1xCXuHN9CUNssVt",
+          "title": "6/14/26 ball drop",
+          "addedAt": "2026-06-15"
+        },
+        {
+          "driveId": "1IMl8GufTXH5RcVOmMOQcKwJZlfteihmf",
+          "title": "6/14/26 scuba",
+          "addedAt": "2026-06-15"
+        },
+        {
+          "driveId": "1CDEnOJP216TjzCwl-sG2UGcHPs8zRaxe",
+          "title": "New · 6/15",
+          "addedAt": "2026-06-15"
+        },
         {
           "driveId": "1hZus_HsIrnu_RSYZe6C2scysmeTcRY7l",
           "title": "6/4 take 2",
@@ -209,16 +229,31 @@
       "joined": "May 2026",
       "vibe": "Solid output · 3 edited",
       "stats": {
-        "editedVideos": 3,
+        "editedVideos": 6,
         "igPosts": 31,
         "igFollowers": 1417,
-        "videoCount": 3,
+        "videoCount": 6,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1gWzH_eWudol4o4zbYQOj0LTM2mLo_3Gl",
       "editedClips": [
+        {
+          "driveId": "1vGzR90hR6MaxndSCrDQSAfyJ8li8RRjP",
+          "title": "final video 6 - 6/14",
+          "addedAt": "2026-06-14"
+        },
+        {
+          "driveId": "1cNl16gJU5GjZ7y2yTRahL277PU8xkgsv",
+          "title": "final video 5 - 6/14",
+          "addedAt": "2026-06-14"
+        },
+        {
+          "driveId": "1G8Vb3YzyLqOOMiYGwJmzopmI_uPx0_Hx",
+          "title": "final video 4 - 6/14",
+          "addedAt": "2026-06-14"
+        },
         {
           "driveId": "1MJrBtqBt3J7memyE9NexAf-Humm1zZc7",
           "title": "final video 1 · 6/4",
@@ -390,16 +425,26 @@
       "joined": "May 2026",
       "vibe": "2 videos at root · IG/TikTok pending confirm",
       "stats": {
-        "editedVideos": 2,
+        "editedVideos": 4,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 2,
+        "videoCount": 4,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
       "editedClips": [
+        {
+          "driveId": "1h_fE1hqwNuC3mXt9byx6CGzxevrJb_nU",
+          "title": "pickleball 05 · 6/15",
+          "addedAt": "2026-06-15"
+        },
+        {
+          "driveId": "1Xt_B5SvLWZy7baLGBhSgU_UM4QGAWB5a",
+          "title": "pickleball 04 · 6/15",
+          "addedAt": "2026-06-15"
+        },
         {
           "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P",
           "title": "pickleball 02 · 6/8",
@@ -442,7 +487,7 @@
           "addedAt": "2026-06-13"
         },
         {
-          "driveId": "1B_YDVBYu7SzS4MC3UZDcrgFB7ROAr03e",
+          "driveId": "1B_YDVBYu7SzS4NC3UZDcrgFB7ROAr03e",
           "title": "Jameson 6/9",
           "addedAt": "2026-06-10"
         },
@@ -590,6 +635,6 @@
       "Several clips landed in the last 24 hours of the cycle. If that's you, aim to drop one edit midweek so there is time to review and coordinate before the weekend.",
       "No TikTok posts have been logged yet. If your edited clips are ready to go, coordinate with Belle on timing and captioning before you hit publish."
     ],
-    "production": "24 edited clips across the squad entering week 3 of the season. Top output at 5 clips, median at 3. Five of nine creators active in the Drive this cycle. Two creators have not yet set up their folders."
+    "production": "33 edited videos across the squad this week. Top of production at 8, median at 4."
   }
 }
