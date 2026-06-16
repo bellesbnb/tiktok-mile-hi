@@ -80,6 +80,7 @@ async function boot() {
     return;
   }
 
+  renderAnnouncement();
   renderHeader();
   renderWeeklyReport();
   renderTrends();
@@ -204,6 +205,30 @@ function renderHeader() {
   if (DATA.brand.weekLabel) {
     $('#weekLabel').textContent = DATA.brand.weekLabel.toLowerCase();
   }
+}
+
+// -------------------- ANNOUNCEMENT BANNER --------------------
+function renderAnnouncement() {
+  const a = DATA.brand && DATA.brand.announcement;
+  const el = $('#announcement');
+  if (!a || !a.active) { el.classList.add('hidden'); return; }
+  el.classList.remove('hidden');
+
+  $('#announcementBadge').textContent = a.badge || 'NEW';
+
+  // Replace the TikTok handle in the body with a clickable link
+  const txt = $('#announcementText');
+  const handle = a.tiktokHandle || '';
+  const url = a.tiktokUrl || '#';
+  const title = a.title || '';
+  const body = a.body || '';
+  const linkedBody = handle
+    ? body.replace(
+        handle,
+        `<a href="${url}" target="_blank" rel="noopener" class="uline font-bold">${handle}</a>`
+      )
+    : body;
+  txt.innerHTML = `<strong>${title}.</strong> ${linkedBody}`;
 }
 
 // -------------------- BELLE COMMENTS (coaching notes) --------------------

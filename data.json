@@ -8,7 +8,16 @@
     "intro": "Nine voices. One court. Every week, fresh stories from the players shaping pickleball culture in Colorado.",
     "logo": "assets/logo.png",
     "siteUrl": "https://milehicitypickleball.com",
-    "rosterFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J"
+    "rosterFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
+    "announcement": {
+      "active": true,
+      "badge": "LIVE",
+      "title": "Our TikTok is up",
+      "body": "Tag @milehicitypickleball as a collaborator on every post you put up so it lands on our feed too.",
+      "tiktokHandle": "@milehicitypickleball",
+      "tiktokUrl": "https://www.tiktok.com/@milehicitypickleball",
+      "since": "2026-06-15"
+    }
   },
   "thisWeek": [
     {
