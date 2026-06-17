@@ -126,16 +126,21 @@
       "joined": "May 2026",
       "vibe": "Production leader · 4 edited",
       "stats": {
-        "editedVideos": 8,
+        "editedVideos": 9,
         "igPosts": 8,
         "igFollowers": 913,
-        "videoCount": 8,
+        "videoCount": 9,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
+        {
+          "driveId": "1n8-9VlgBq32_KSU78FeDZTJlKzNFzvC2",
+          "title": "Copy of New · 6/16",
+          "addedAt": "2026-06-16"
+        },
         {
           "driveId": "14UJld2kOyUnJzM4LNEY5kPNxQFxaHhwF",
           "title": "6/14/26 net",
@@ -674,6 +679,6 @@
       "Several clips landed in the last 24 hours of the cycle. If that's you, aim to drop one edit midweek so there is time to review and coordinate before the weekend.",
       "No TikTok posts have been logged yet. If your edited clips are ready to go, coordinate with Belle on timing and captioning before you hit publish."
     ],
-    "production": "33 edited videos across the squad this week. Top of production at 8, median at 4."
+    "production": "34 edited videos across the squad this week. Top of production at 9, median at 4."
   }
 }
