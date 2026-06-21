@@ -457,37 +457,16 @@
       "joined": "May 2026",
       "vibe": "2 videos at root · IG/TikTok pending confirm",
       "stats": {
-        "editedVideos": 4,
+        "editedVideos": 0,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 4,
+        "videoCount": 0,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15F1QnvHETPkhiTlU13hbfBNn404_vHV7",
-      "editedClips": [
-        {
-          "driveId": "1h_fE1hqwNuC3mXt9byx6CGzxevrJb_nU",
-          "title": "pickleball 05 · 6/15",
-          "addedAt": "2026-06-15"
-        },
-        {
-          "driveId": "1Xt_B5SvLWZy7baLGBhSgU_UM4QGAWB5a",
-          "title": "pickleball 04 · 6/15",
-          "addedAt": "2026-06-15"
-        },
-        {
-          "driveId": "1IuACMD-HJJ7g3k7TgbCK2L-Jadm2oM0P",
-          "title": "pickleball 02 · 6/8",
-          "addedAt": "2026-06-09"
-        },
-        {
-          "driveId": "1VzNI4O-YTSWJa8xfFKq3mucfNPwTz6k7",
-          "title": "pickleball 01 · 6/8",
-          "addedAt": "2026-06-09"
-        }
-      ]
+      "editedClips": []
     },
     {
       "id": "9",
@@ -694,6 +673,6 @@
       "Several clips landed in the last 24 hours of the cycle. If that's you, aim to drop one edit midweek so there is time to review and coordinate before the weekend.",
       "No TikTok posts have been logged yet. If your edited clips are ready to go, coordinate with Belle on timing and captioning before you hit publish."
     ],
-    "production": "37 edited videos across the squad this week. Top of production at 11, median at 4."
+    "production": "33 edited videos across the squad this week. Top of production at 11, median at 3."
   }
 }
