@@ -4,7 +4,7 @@
     "shortName": "Mile Hi Pickleball",
     "tagline": "The TikTok Roster",
     "season": "Summer '26",
-    "weekLabel": "Week of Jun 15 · Jun 21",
+    "weekLabel": "Week of Jun 22 · Jun 28",
     "intro": "Nine voices. One court. Every week, fresh stories from the players shaping pickleball culture in Colorado.",
     "logo": "assets/logo.png",
     "siteUrl": "https://milehicitypickleball.com",
@@ -22,15 +22,15 @@
   "thisWeek": [
     {
       "id": "trend-1",
-      "title": "court day grwm",
-      "tag": "COURT DAY GRWM",
-      "tagColor": "aqua",
-      "startDate": "Jun 15",
-      "endDate": "Jun 21",
-      "brief": "Hook (0-3s): camera at chest height on yourself, casual fit, one raised eyebrow · text on screen: 'court day grwm.' Josh Fawaz's 'Like a Prayer' Baccij Remix plays underneath from start to finish. Cut through your prep in quick beats: outfit change to court kit, bag packed, drive to Mile Hi, through the front doors. Final beat: grab a JOOLA paddle off the rack and turn to face the navy 'GAME ON' wall · no talking needed. 45-60 seconds. Sync your arrival moment to the audio build · TikTok's sound library has the remix, search 'Josh Fawaz Like a Prayer.' GRWM format works here because it makes showing up to the court feel like an event, not a chore.",
+      "title": "rock music court freeze",
+      "tag": "ROCK COURT GLITCH",
+      "tagColor": "burnt",
+      "startDate": "Jun 22",
+      "endDate": "Jun 28",
+      "brief": "Hook (0-3s): walk up to Court 1 at Mile Hi, JOOLA paddle loose in your hand, casual energy. Charli XCX's 'Rock Music' kicks in. Cut through two quick moments at the kitchen line. At the built-in audio glitch mid-track, apply TikTok's 'Stuck Frame' animation effect to freeze your sharpest-looking moment mid-motion, paddle raised or mid-swing. Hold it for two beats against the navy 'GAME ON' wall, then release. Under 30 seconds. The glitch is baked into the audio so you do not engineer the transition, you just have to nail the timing. Search 'Rock Music Charli XCX' in TikTok sounds. Note: this audio is on Atlantic/Warner and may be restricted on business accounts. If you get a restriction, save it as an original sound from a personal creator account first, then use that.",
       "examples": [
-        "https://www.tiktok.com/@joshfawaz/video/7643912793929895186",
-        "https://www.tiktok.com/discover/josh-fawaz-like-a-prayer-song-full"
+        "https://www.tiktok.com/@charlixcx/video/7637619596123557142",
+        "https://www.tiktok.com/discover/how-to-make-the-rock-music-charli-xcx-trend"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
@@ -44,40 +44,40 @@
         "8",
         "9"
       ],
-      "trendSource": "Josh Fawaz's 'Like a Prayer' Baccij Remix has 22M+ Spotify plays and is charting in Australia and the UK as TikTok's 2026 Summer Anthem. GRWM (get ready with me) is one of TikTok's highest-retention formats for sports and lifestyle creators, driving strong watch-through on prep-to-activity content. Source: Spotify chart data + NewEngen June 2026 trends report. First example URL is a real TikTok video from Josh Fawaz's account; second is a TikTok discover page.",
-      "hookFormat": "grwm"
+      "trendSource": "Charli XCX dropped 'Rock Music' on May 7, 2026, and the built-in vocal glitch mid-track is the mechanic behind TikTok's breakout edit format this week. Creators film a clip, sync to the glitch section, then apply TikTok's 'Stuck Frame' animation to freeze a highlight moment mid-motion. It looks harder than it is, which is exactly why it performs. Sources: blog.crescitaly.com trending TikTok songs June 2026 report + newengen.com June 2026 TikTok trends analysis. First example URL is from Charli XCX's own TikTok; second is a TikTok discover page.",
+      "hookFormat": "transformation"
     },
     {
       "id": "trend-2",
-      "title": "5 things beginners miss",
-      "tag": "BEGINNER TIPS WIN",
-      "tagColor": "burnt",
-      "startDate": "Jun 15",
-      "endDate": "Jun 21",
-      "brief": "Hook (0-3s): tight face shot, one finger up, on-screen text: '5 things nobody told me before I played at Mile Hi.' No slow setup, go straight into the list. Tip 1: grab the JOOLA paddle off the rack, not just any paddle. Tip 2: stand at the kitchen line, not the baseline · that's where every rally is actually won. Tip 3: you WILL miss your first dink · Coach Jill says that's part of the process, not a sign you're bad. Tip 4: the navy 'GAME ON' wall means you're on Court 1, the best court in the house. Tip 5: everyone on the court is rooting for you. End tight on face, small smile: 'now you know.' 30-45 seconds, talk fast, one take. The list structure keeps viewers watching because they're counting down to the next number · don't let dead air break the momentum.",
+      "title": "pressure on the kitchen",
+      "tag": "KITCHEN LINE PRESSURE",
+      "tagColor": "denim",
+      "startDate": "Jun 22",
+      "endDate": "Jun 28",
+      "brief": "Hook (0-3s): extreme close-up of your hand gripping a JOOLA paddle, knuckles visible, nothing else in frame. Nyck Caution's 'PRESSURE!' drops and you cut through: a fast dink exchange at the kitchen line, a quick reset shot, one winning overhead volley. Final frame: face to camera, small nod. No voiceover. Caption centered on screen: 'mile hi : POV.' 20-30 seconds, zero dead air. Sync every cut to the bass hits. Film on Court 1 so the navy 'GAME ON' wall is visible in the background. Search 'PRESSURE Nyck Caution' in TikTok sounds.",
       "examples": [
-        "https://www.tiktok.com/discover/5-things-i-wish-i-knew-pickleball",
-        "https://www.tiktok.com/discover/number-promise-sports-tiktok"
+        "https://www.tiktok.com/@thebrrrn/video/7446916125218295086",
+        "https://www.tiktok.com/music/PRESSURE-7315154491791181826"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
         "1",
         "5"
       ],
-      "trendSource": "Number-plus-promise format ('5 things I wish I knew about...') is one of TikTok's highest-retention structures for instructional and discovery content, consistently appearing in NapoleonCat's June 2026 trending formats report. Summer is peak recreational sports discovery season, making first-timer content well-timed for the Mile Hi beginner market. No specific trending audio required · use any energetic track from your FYP. Both example URLs are TikTok discover pages.",
-      "hookFormat": "number+promise"
+      "trendSource": "Nyck Caution's 'PRESSURE!' was released via Epidemic Sound in January 2024 and now soundtracks roughly 120,000 TikTok videos including content from FIFA's official World Cup account, Real Madrid, the Premier League, and F1. Brands using this track average 20x their regular performance numbers per the Epidemic Sound June 2026 trending tracks report. World Cup tie-in keeps it algorithmically elevated through late June. First example URL is a real TikTok video; second is the TikTok music page for the sound.",
+      "hookFormat": "pov"
     },
     {
       "id": "trend-3",
-      "title": "same energy different court",
-      "tag": "WORLD CUP CROSSOVER",
-      "tagColor": "butter",
-      "startDate": "Jun 15",
-      "endDate": "Jun 21",
-      "brief": "Hook (0-3s): hold up your phone showing a World Cup 2026 score or goal clip, then immediately cut to yourself holding a JOOLA paddle on Court 1 at Mile Hi · same face, same posture, zero explanation. On-screen text: 'same energy.' Use a trending World Cup crowd chant or horn audio from the FYP (search 'World Cup 2026 crowd' in TikTok sounds). Cut three quick reaction moments: fist pump after a point won, frustrated head shake after a missed shot, team high-five with whoever is on the court. End on the navy 'GAME ON' wall, paddles raised, text overlay: 'mile hi : POV.' 30-45 seconds, no script needed · just bring your match-day face to the court. Film Tuesday through Thursday while the World Cup FYP wave is at peak volume.",
+      "title": "how pickleball got me",
+      "tag": "ORIGIN STORY REAL",
+      "tagColor": "aqua",
+      "startDate": "Jun 22",
+      "endDate": "Jun 28",
+      "brief": "This is the Olivia Rodrigo 'drop dead' origin-story format. Hook (0-3s): candid over-the-shoulder shot from the doorway at Mile Hi, looking in at the courts, no paddle, no kit, just watching. On-screen text: 'I was just gonna watch.' Cut through three quick moments: first time picking up a JOOLA paddle (small laugh), one missed dink at the kitchen line (eye-roll), one winning rally (fist pump). End with a slow push toward the navy 'GAME ON' wall, text: 'now I can't leave.' 30-45 seconds, casual, one take. Note: 'drop dead' works best with a slightly slower, more emotive pace than your usual court clips. That slower energy is intentional and on-strategy for this format, so do not speed it up. Search 'drop dead Olivia Rodrigo' in TikTok sounds.",
       "examples": [
-        "https://www.tiktok.com/discover/world-cup-2026-tiktok-trend",
-        "https://www.tiktok.com/discover/world-cup-same-energy-sport"
+        "https://www.tiktok.com/@livbedumb/video/7629579050872294669",
+        "https://www.tiktok.com/discover/trend-de-olivia-rodrigo-drop-dead"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
@@ -85,20 +85,20 @@
         "3",
         "7"
       ],
-      "trendSource": "FIFA named TikTok its official preferred platform for the 2026 World Cup, which started June 11. TikTok and FIFA unveiled 30 Creator Correspondents, signaling algorithmic boosts for World Cup audio and reaction content all month. Sports crossover formats using World Cup crowd sounds are getting elevated FYP distribution this week. Sources: TikTok Newsroom + Yahoo Sports, June 2026. Both example URLs are TikTok discover pages · search 'World Cup 2026 crowd' in TikTok sounds to find the audio.",
-      "hookFormat": "seasonal"
+      "trendSource": "Olivia Rodrigo's 'drop dead' is the lead single from her June 12, 2026 album 'you seem pretty sad for a girl so in love,' which TikTok built an immersive in-app campaign around (TikTok Newsroom, June 2026). The song has 121,000+ TikTok posts and is driving a love-story origin format where creators show the messy, curious moment they fell into something they now can't quit. Source: TikTok Newsroom + insighttrendsworld.com June 2026. This is intentionally a slower, more emotive audio than most trend cards. First example URL is a real TikTok video; second is a TikTok discover page.",
+      "hookFormat": "social proof"
     },
     {
       "id": "trend-4",
-      "title": "i knew it was pickleball",
-      "tag": "I KNEW IT",
-      "tagColor": "denim",
-      "startDate": "Jun 15",
-      "endDate": "Jun 21",
-      "brief": "Taylor Swift's 'I Knew It, I Knew You' from the Toy Story 5 soundtrack is the #1 single driving nostalgic origin-story content across TikTok this week. Hook (0-3s): hold up a childhood photo on your phone screen, or look directly into the camera with a small smile · on-screen text: 'I knew it was pickleball.' Cut to: walking into Mile Hi, grabbing a JOOLA paddle off the rack, one natural moment on the court (a good rally, a laugh after a missed shot, a high-five). Let the Taylor Swift bridge carry the last 10 seconds. End on the navy 'GAME ON' wall. 30-45 seconds, one take · genuine energy wins over polished every time for this format. Film Monday or Tuesday while Toy Story 5 premiere buzz builds toward June 19. Search 'I Knew It I Knew You Taylor Swift' in TikTok sounds to find the audio.",
+      "title": "summer court big energy",
+      "tag": "SUMMER COURT ENERGY",
+      "tagColor": "butter",
+      "startDate": "Jun 22",
+      "endDate": "Jun 28",
+      "brief": "Hook (0-3s): walk through the front doors of Mile Hi like you are walking onto a beach. Big energy, JOOLA paddle in hand, optional sunglasses. Saxboy Billy's 'The Puerto Rico Song' carries the whole thing. Cut through: swing the paddle, high-five whoever is on the court with you, land one smooth shot near the kitchen line. End on the navy 'GAME ON' wall with a grin and a shrug that says this is your summer. Under 30 seconds, zero script. The audio is your personality, no talking needed. Search 'Puerto Rico Song Saxboy Billy' in TikTok sounds. Film as early in the week as possible while the song is at peak FYP circulation.",
       "examples": [
-        "https://www.tiktok.com/discover/i-knew-it-i-knew-you-taylor-swift-trend",
-        "https://www.tiktok.com/discover/toy-story-5-tiktok-nostalgia"
+        "https://www.tiktok.com/content/saxboybilly-puerto-rico-song",
+        "https://www.tiktok.com/discover/saxboy-billy-the-puerto-rico-song-lyrics"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
@@ -107,7 +107,7 @@
         "8",
         "9"
       ],
-      "trendSource": "Taylor Swift released 'I Knew It, I Knew You' on June 5 for Toy Story 5 and it hit #1 in the UK, breaking Spotify's single-day streaming record for a country song by a female artist (Official Charts, Deadline, Variety, June 2026). The song is driving a wave of nostalgic 'I always knew this was for me' origin-story formats on TikTok, peaking around the June 19 theatrical release. Both example URLs are TikTok discover pages · search 'I Knew It I Knew You Taylor Swift' in TikTok's sound library.",
+      "trendSource": "Saxboy Billy's 'Puerto Rico Song' is an AI-generated summer earworm by comedian Bill Stiteler that went massively viral across TikTok, Instagram, and Facebook. Jennifer Love Hewitt, Charlie Puth, Luke Combs, and O-Town all joined the trend. The carefree yacht-rock energy maps perfectly onto a summer sports arrival clip. Sources: click2houston.com June 8, 2026 profile of Saxboy Billy + TMZ May 24, 2026. Both example URLs are TikTok content/discover pages; the song is findable by searching 'Puerto Rico Song Saxboy Billy' in TikTok sounds.",
       "hookFormat": "sound trend"
     }
   ],
@@ -660,19 +660,19 @@
     }
   ],
   "weeklyReport": {
-    "weekOf": "Jun 15 · Jun 21",
-    "generatedAt": "2026-06-15T07:00:00Z",
-    "summary": "Seven of nine creators are producing this week and Drive output more than doubled from last cycle (33 edits, up from 16). TikTok posts haven't hit the feed yet, so Drive is still the production signal. Four new trends are live: a GRWM court-day to Josh Fawaz's summer anthem, a five-tip beginner format, a World Cup energy crossover, and a Taylor Swift Toy Story 5 nostalgia piece.",
+    "weekOf": "Jun 22 · Jun 28",
+    "generatedAt": "2026-06-22T07:00:00Z",
+    "summary": "Squad has 33 edited clips in Drive across 9 creators, but no TikTok posts have been logged yet. This is the week to post. Four new trend cards are live: a Charli XCX glitch-freeze edit for all 9, a kitchen-line pressure POV, an Olivia Rodrigo origin-story format, and a Saxboy Billy summer energy clip.",
     "topVideo": null,
     "topCreator": {
-      "name": "The squad",
-      "reason": "Two creators tied at 4 new clips for the week, with solid contributions from three others. No TikTok metrics yet to separate the pack, so the squad takes the recognition this week."
+      "name": "Annie Turner",
+      "reason": "Eleven edited clips in Drive, nearly double the next creator, with consistent uploads spread across the full cycle."
     },
     "watchOuts": [
-      "Seven out of nine creators are already producing this week, two are still on the sidelines without Drive folders. If that's you, please ping Tricia today so we can get yours set up and bring you into the flow. The rest of the squad is moving fast and we want you in it.",
-      "Several clips landed in the last 24 hours of the cycle. If that's you, aim to drop one edit midweek so there is time to review and coordinate before the weekend.",
-      "No TikTok posts have been logged yet. If your edited clips are ready to go, coordinate with Belle on timing and captioning before you hit publish."
+      "Two creators still do not have a Drive folder set up. If that is you, ping Tricia today so your folder can be created and you can start dropping clips this week.",
+      "One creator has a Drive folder but no edited clips in it yet. If that is you, drop your first cut this week. Raws are great, but an edited clip in the EDITED folder is what gets posted.",
+      "No TikTok posts have been logged yet for the squad. If your edited clips are ready, coordinate with Belle on timing and captioning before you hit publish."
     ],
-    "production": "33 edited videos across the squad this week. Top of production at 11, median at 3."
+    "production": "33 edited videos in Drive across the squad this cycle. Top of production at 11 clips, median at 3. Three creators are still at zero."
   }
 }
