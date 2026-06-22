@@ -538,7 +538,17 @@
       "source": "Belle",
       "creatorName": "All",
       "creatorId": null,
-      "intro": "Hey guys! 💛 I'm reviewing the videos and I just wanted to say great job. I can really see the progress, the effort, and the creativity you're putting in. Thank you for paying attention to the notes, it really shows. Also, what are you guys thinking about the page? Are you watching what's being posted? I'd love to know what you think.",
+      "trendRefs": {
+        "label": "Belle's picks · 4 trends to study this week",
+        "note": "These are formats I want you to STUDY, not copy frame-for-frame. Feel the structure (the hook, the cuts, the pacing, the punchline) and bring our Mile Hi version of it. Open each one, watch 2-3 times, then plan your shoot.",
+        "items": [
+          { "url": "https://www.tiktok.com/t/ZTBVoL7gf/", "label": "ref 1" },
+          { "url": "https://www.tiktok.com/t/ZTBVEE7rS/", "label": "ref 2" },
+          { "url": "https://www.tiktok.com/t/ZTBVoBkgH/", "label": "ref 3" },
+          { "url": "https://www.tiktok.com/t/ZTBGMdnbu/", "label": "ref 4" }
+        ]
+      },
+      "intro": "Hey guys! 💛 I'm really loving what I'm seeing from you this week. The energy, the personality, the effort, it's all showing up on screen. Before you film the next round, check out the four TikTok refs at the top of this card · those are formats I want you to take and bring our Mile Hi version of, not copy exactly. A few quick reminders below too.",
       "rules": [
         {
           "n": "01",
@@ -552,11 +562,21 @@
         },
         {
           "n": "03",
+          "title": "🔠 double-check your font before exporting",
+          "body": "Quick eye on the text style every single time before you hit export. Are you on Quicksand Bold lowercase for the main caption + Anton ALL CAPS for the punch label, or did CapCut default back to its system font? Defaults make the feed look random and not on-brand. The full font recipe lives in section 07 'before you post' at the bottom of this portal · open it before every edit."
+        },
+        {
+          "n": "04",
           "title": "🤝 IG · tag mile hi as a collaborator",
           "body": "When you post your Mile Hi content on Instagram, don't just @ the account · use the COLLABORATOR option. When you upload your post, tap Tag People, scroll down and tap Invite Collaborator, then add @milehicitypickleball. Once Tricia approves on her end, your post shows on YOUR feed AND on Mile Hi's feed at the same time. Same post, double the reach, zero extra work. This is how we grow both accounts together."
+        },
+        {
+          "n": "05",
+          "title": "📱 don't forget to tag us on TikTok too",
+          "body": "Every single TikTok you post needs to tag @milehicitypickleball in the caption (and mention us in the video if it fits naturally). I've seen a couple of posts go up without the tag · please don't forget. TikTok uses tags to connect content across accounts, so when ours is missing, the algorithm doesn't link you to our page. Tag us every time, no exceptions."
         }
       ],
-      "outro": "Besides that, I'm really happy with what I'm seeing. Keep putting effort, personality, and creativity into it. That's exactly what Mile Hi needs. Thank you guys so much! If you have any questions, you have my number and Tricia's too. 💛",
+      "outro": "Besides all that, I'm really happy with what I'm seeing. Keep putting effort, personality, and creativity into it. That's exactly what Mile Hi needs. Thank you guys so much! If you have any questions, you have my number and Tricia's too. 💛",
       "images": []
     },
     {

@@ -283,6 +283,22 @@ function renderBelleComments() {
         </div>`
       : '';
 
+    // Trend references · Belle's manual picks of formats to study
+    const refsHtml = (c.trendRefs && (c.trendRefs.items || []).length)
+      ? `<div class="bg-navy text-magnolia rounded-lg p-4 md:p-5 mb-5 md:mb-6">
+          <div class="flex items-center gap-3 mb-2 flex-wrap">
+            <span class="anchor anchor-burnt">${(c.trendRefs.label || 'belle\'s picks').toUpperCase()}</span>
+          </div>
+          ${c.trendRefs.note ? `<p class="font-display text-sm md:text-base text-magnolia/85 leading-snug mb-3">${c.trendRefs.note}</p>` : ''}
+          <div class="flex flex-wrap gap-2">
+            ${c.trendRefs.items.map(it => `
+              <a href="${it.url}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-burnt text-magnolia hover:bg-magnolia hover:text-burnt transition-colors font-impact text-xs uppercase tracking-[0.18em] px-3 py-2 rounded-full">
+                ↗ ${(it.label || 'open').toUpperCase()}
+              </a>`).join('')}
+          </div>
+        </div>`
+      : '';
+
     // Structured body: intro + rules grid + outro (Belle's new schema)
     // Falls back to plain `comment` for legacy entries (Tricia + older notes)
     const introHtml = c.intro
@@ -319,7 +335,7 @@ function renderBelleComments() {
           ? `<span class="anchor anchor-butter ml-auto">FOR EVERYONE</span>`
           : `<span class="anchor anchor-navy ml-auto">FOR ${(creatorName || '').toUpperCase()}</span>`}
       </div>
-      ${legacyHtml}${introHtml}${rulesHtml}${outroHtml}
+      ${refsHtml}${legacyHtml}${introHtml}${rulesHtml}${outroHtml}
       ${imagesHtml}
     </li>`;
   }).join('');
