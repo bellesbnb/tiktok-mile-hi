@@ -389,9 +389,9 @@
       "tiktokHandle": "@jacksondelay",
       "phone": "",
       "email": "",
-      "driveFolder": "",
+      "driveFolder": "https://drive.google.com/drive/folders/1rV7-xfHe9MRX7BLVpoUj5a5sZQ6NQY3e",
       "joined": "May 2026",
-      "vibe": "Drive folder pending",
+      "vibe": "Kids Camp content with Ellie",
       "stats": {
         "editedVideos": 0,
         "igPosts": 1,
@@ -401,7 +401,7 @@
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": ""
+      "editedFolder": "https://drive.google.com/drive/folders/1rV7-xfHe9MRX7BLVpoUj5a5sZQ6NQY3e"
     },
     {
       "id": "6",
@@ -479,9 +479,9 @@
       "tiktokHandle": "@meredithsieja",
       "phone": "",
       "email": "",
-      "driveFolder": "",
+      "driveFolder": "https://drive.google.com/drive/folders/11e6fcFq-D4asJEvee5jTJowxpy-677hB",
       "joined": "May 2026",
-      "vibe": "Drive folder pending",
+      "vibe": "Just joined the squad",
       "stats": {
         "editedVideos": 0,
         "igPosts": 13,
@@ -491,7 +491,7 @@
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": ""
+      "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE"
     },
     {
       "id": "8",
@@ -751,8 +751,7 @@
       "reason": "Eleven edited clips in Drive, nearly double the next creator, with consistent uploads spread across the full cycle."
     },
     "watchOuts": [
-      "Two creators still do not have a Drive folder set up. If that is you, ping Tricia today so your folder can be created and you can start dropping clips this week.",
-      "One creator has a Drive folder but no edited clips in it yet. If that is you, drop your first cut this week. Raws are great, but an edited clip in the EDITED folder is what gets posted.",
+      "Full squad is now wired up · 9 of 9 creators have their Drive folder set. The two who just joined are still uploading their first edits. If that is you, drop a cut this week so you are in the leaderboard with the rest of us.",
       "No TikTok posts have been logged yet for the squad. If your edited clips are ready, coordinate with Belle on timing and captioning before you hit publish."
     ],
     "production": "43 edited videos across the squad this week. Top of production at 11 clips, median at 6."
