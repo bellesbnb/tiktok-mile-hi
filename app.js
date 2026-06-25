@@ -653,27 +653,52 @@ function openCreator(id) {
         <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-burnt">edited this week · ${c.editedClips.length}</div>
         ${c.editedFolder ? `<a href="${c.editedFolder}" target="_blank" rel="noopener" class="font-mono text-[10px] uppercase tracking-[0.18em] text-navy/60 hover:text-burnt">open folder ↗</a>` : ''}
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-        ${c.editedClips.map(clip => `
-          <a href="https://drive.google.com/file/d/${clip.driveId}/view" target="_blank" rel="noopener" class="group block">
-            <div class="aspect-[9/12] bg-navy rounded-lg overflow-hidden relative">
-              <img
-                src="https://drive.google.com/thumbnail?id=${clip.driveId}&sz=w400"
-                alt="${clip.title || ''}"
-                loading="lazy"
-                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                onerror="this.style.display='none';this.parentElement.querySelector('.fallback').style.display='grid';">
-              <div class="fallback hidden absolute inset-0 grid place-content-center text-center p-3" style="background: linear-gradient(135deg, #003C78, #F05D38);">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="mx-auto mb-2 text-magnolia"><path d="M8 5v14l11-7L8 5z" fill="currentColor"/></svg>
-                <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-magnolia/80">video</div>
-              </div>
-              <div class="absolute bottom-2 left-2 right-2 flex items-center justify-between">
-                <span class="font-mono text-[9px] uppercase tracking-[0.18em] bg-ink/70 backdrop-blur text-magnolia px-2 py-1">${(clip.addedAt || '').slice(5).replace('-','/')}</span>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="#FDFFEA" class="drop-shadow"><path d="M8 5v14l11-7L8 5z"/></svg>
+      <div class="space-y-4">
+        ${c.editedClips.map(clip => {
+          const hasCaption = clip.caption && clip.caption.length > 0;
+          const handle = c.tiktokHandle || '';
+          return `
+          <div class="bg-magnolia border-2 border-navy/10 rounded-lg overflow-hidden ${hasCaption ? 'ring-2 ring-burnt/30' : ''}">
+            <div class="grid grid-cols-3 gap-0">
+              <a href="https://drive.google.com/file/d/${clip.driveId}/view" target="_blank" rel="noopener" class="block group col-span-1">
+                <div class="aspect-[9/12] bg-navy relative">
+                  <img
+                    src="https://drive.google.com/thumbnail?id=${clip.driveId}&sz=w400"
+                    alt="${clip.title || ''}"
+                    loading="lazy"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    onerror="this.style.display='none';this.parentElement.querySelector('.fallback').style.display='grid';">
+                  <div class="fallback hidden absolute inset-0 grid place-content-center text-center p-3" style="background: linear-gradient(135deg, #003C78, #F05D38);">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="mx-auto mb-2 text-magnolia"><path d="M8 5v14l11-7L8 5z" fill="currentColor"/></svg>
+                    <div class="font-mono text-[9px] uppercase tracking-[0.18em] text-magnolia/80">video</div>
+                  </div>
+                  <div class="absolute bottom-2 left-2 right-2 flex items-center justify-between">
+                    <span class="font-mono text-[9px] uppercase tracking-[0.18em] bg-ink/70 backdrop-blur text-magnolia px-2 py-1">${(clip.addedAt || '').slice(5).replace('-','/')}</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="#FDFFEA" class="drop-shadow"><path d="M8 5v14l11-7L8 5z"/></svg>
+                  </div>
+                </div>
+              </a>
+              <div class="col-span-2 p-3 md:p-4 flex flex-col">
+                <div class="flex items-center justify-between mb-1 gap-2">
+                  <div class="font-display text-sm text-navy/70 lowercase truncate flex-1">${clip.title || 'untitled clip'}</div>
+                  ${hasCaption ? `<span class="anchor anchor-burnt text-[10px] shrink-0">READY</span>` : `<span class="anchor anchor-butter text-[10px] shrink-0">DRAFT</span>`}
+                </div>
+                ${hasCaption ? `
+                  <p class="font-display text-sm md:text-base text-navy leading-snug mb-2">${clip.caption}</p>
+                  <div class="flex flex-wrap gap-1 mb-2">
+                    ${(clip.hashtags || []).map(h => `<span class="font-mono text-[10px] text-burnt">${h}</span>`).join('')}
+                  </div>
+                  <div class="flex items-center justify-between gap-2 mt-auto pt-2 border-t border-navy/10">
+                    <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-navy/60">${handle || 'no tiktok handle'}</span>
+                    <button type="button" onclick="window.copyClipText('${clip.driveId}', this)" class="anchor anchor-burnt text-[10px] hover:bg-navy hover:text-magnolia transition-colors cursor-pointer">📋 COPY</button>
+                  </div>
+                ` : `
+                  <p class="font-display text-xs text-navy/50 italic mt-2">caption not generated yet · Belle will add this week</p>
+                `}
               </div>
             </div>
-            <div class="mt-2 font-display text-sm text-navy/80 lowercase truncate">${clip.title || 'untitled clip'}</div>
-          </a>`).join('')}
+          </div>`;
+        }).join('')}
       </div>
     </div>` : ''}
 
@@ -690,6 +715,51 @@ function openCreator(id) {
 function closeModal() {
   $('#modal').classList.add('hidden');
   document.body.style.overflow = '';
+}
+
+// -------------------- COPY CLIP CAPTION + HASHTAGS --------------------
+// Exposed globally so the inline onclick handlers in the modal can call it.
+window.copyClipText = function(driveId, btn) {
+  if (!DATA) return;
+  for (const c of DATA.creators) {
+    for (const clip of (c.editedClips || [])) {
+      if (clip.driveId === driveId) {
+        const handle = (c.tiktokHandle || '').trim();
+        const caption = (clip.caption || '').trim();
+        const tags = (clip.hashtags || []).join(' ');
+        const tail = [tags, handle].filter(Boolean).join(' ');
+        const text = [caption, tail].filter(Boolean).join('\n\n');
+        const done = () => {
+          const original = btn.textContent;
+          btn.textContent = '✓ COPIED';
+          btn.classList.add('bg-aqua');
+          setTimeout(() => {
+            btn.textContent = original;
+            btn.classList.remove('bg-aqua');
+          }, 1800);
+        };
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+        } else {
+          fallbackCopy(text, done);
+        }
+        return;
+      }
+    }
+  }
+};
+
+function fallbackCopy(text, cb) {
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
+  try { document.execCommand('copy'); } catch (_) {}
+  document.body.removeChild(ta);
+  if (cb) cb();
 }
 
 boot();
