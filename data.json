@@ -526,15 +526,41 @@
       "joined": "May 2026",
       "vibe": "Just joined the squad",
       "stats": {
-        "editedVideos": 0,
+        "editedVideos": 3,
         "igPosts": 13,
         "igFollowers": 1749,
-        "videoCount": 0,
+        "videoCount": 3,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
-      "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE"
+      "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE",
+      "editedClips": [
+        {
+          "driveId": "1oB--hC9vlaAyiGoYZHtpSxyLrRBEZG0C",
+          "title": "edited3 · 06/23",
+          "addedAt": "2026-06-23",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1H5f-C4tLngmAtfjJsfPdLb9j8pzHKTPF",
+          "title": "edited2 · 06/23",
+          "addedAt": "2026-06-23",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1L1Ah6uRUV5UokNglkn2RPHvj5IPGzxE9",
+          "title": "edited1 · 06/23",
+          "addedAt": "2026-06-23",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        }
+      ]
     },
     {
       "id": "8",
@@ -817,6 +843,6 @@
       "Full squad is now wired up · 9 of 9 creators have their Drive folder set. The two who just joined are still uploading their first edits. If that is you, drop a cut this week so you are in the leaderboard with the rest of us.",
       "No TikTok posts have been logged yet for the squad. If your edited clips are ready, coordinate with Belle on timing and captioning before you hit publish."
     ],
-    "production": "43 edited videos across the squad this week. Top of production at 11 clips, median at 6."
+    "production": "46 edited videos across the squad this week. Top of production at 11 clips, median at 6."
   }
 }
