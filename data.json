@@ -417,16 +417,31 @@
       "joined": "May 2026",
       "vibe": "1 edited · needs more reps",
       "stats": {
-        "editedVideos": 5,
+        "editedVideos": 8,
         "igPosts": 0,
         "igFollowers": 319,
-        "videoCount": 5,
+        "videoCount": 8,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C",
       "editedClips": [
+        {
+          "driveId": "1HCoif5JsAc_jpKvnET6kPEQmi1OZgQJ_",
+          "title": "clip 6/24",
+          "addedAt": "2026-06-24"
+        },
+        {
+          "driveId": "16PMoDvRR9ZQa2fYABSRYTYIH54ird43d",
+          "title": "clip 6/24",
+          "addedAt": "2026-06-24"
+        },
+        {
+          "driveId": "1S9SF8gRUW4rTo9n2HR_E8NhyxTMdeQXx",
+          "title": "clip 6/24",
+          "addedAt": "2026-06-24"
+        },
         {
           "driveId": "1DTsTCNgvFK8bfBaRdH8JpgriUwW11TpH",
           "title": "clip 6/21",
@@ -740,6 +755,6 @@
       "One creator has a Drive folder but no edited clips in it yet. If that is you, drop your first cut this week. Raws are great, but an edited clip in the EDITED folder is what gets posted.",
       "No TikTok posts have been logged yet for the squad. If your edited clips are ready, coordinate with Belle on timing and captioning before you hit publish."
     ],
-    "production": "40 edited videos across the squad this week. Top of production at 11 clips, median at 5."
+    "production": "43 edited videos across the squad this week. Top of production at 11 clips, median at 6."
   }
 }
