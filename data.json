@@ -548,16 +548,32 @@
       "joined": "May 2026",
       "vibe": "Producing fast · 6 clips this week",
       "stats": {
-        "editedVideos": 6,
+        "editedVideos": 8,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 6,
+        "videoCount": 8,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
+        {
+          "driveId": "1HjZO6nQed0fFpVtz3EFM7RQzRu_GZd-F",
+          "title": "content8 · 07/03",
+          "addedAt": "2026-07-03",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1OO5NFSlKrvvFYJvee7qEFyGWOmrKEZc6",
+          "title": "content7 · 07/03",
+          "addedAt": "2026-07-03",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1LnsgJx7cMcF-_JuKYpbjZ8U1K09r7KPY",
           "title": "Content 6 · 6/17",
@@ -806,16 +822,40 @@
       "joined": "May 2026",
       "vibe": "Just joined the squad",
       "stats": {
-        "editedVideos": 3,
+        "editedVideos": 6,
         "igPosts": 13,
         "igFollowers": 1749,
-        "videoCount": 3,
+        "videoCount": 6,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE",
       "editedClips": [
+        {
+          "driveId": "1xqBlF4z5J3ocgjs6TBW1-KNs5nQERri2",
+          "title": "edited6 · 07/03",
+          "addedAt": "2026-07-03",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1OrD4RKCpIEV9wsPXAqRwKkh1WcZHDPtR",
+          "title": "edited5 · 07/03",
+          "addedAt": "2026-07-03",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1VIHGnzp6443Jf9Fq4q6Ww4mpX8rSmWoY",
+          "title": "edited4 · 07/03",
+          "addedAt": "2026-07-03",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1oB--hC9vlaAyiGoYZHtpSxyLrRBEZG0C",
           "title": "edited3 · 06/23",
@@ -1154,6 +1194,6 @@
       "No TikTok posts have been logged for the squad yet. If your edited clips are in Drive and approved, this is the week to post. Check the caption under your clip on the portal, tag @milehicitypickleball, and hit publish.",
       "Two creators have zero edited videos in their Drive folder. If that is you, your first move this week is one edit so you have something ready to post. The squad posts from EDITED only, so an empty folder means nothing goes up for you."
     ],
-    "production": "46 edited videos across the squad this week. Top of production at 11 clips, median at 6."
+    "production": "51 edited videos across the squad this week. Top of production at 11 clips, median at 6."
   }
 }
