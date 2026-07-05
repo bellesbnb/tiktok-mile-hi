@@ -126,16 +126,40 @@
       "joined": "May 2026",
       "vibe": "Production leader · 4 edited",
       "stats": {
-        "editedVideos": 11,
+        "editedVideos": 14,
         "igPosts": 8,
         "igFollowers": 913,
-        "videoCount": 11,
+        "videoCount": 14,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
+        {
+          "driveId": "1IwIWBp9me99ZoXJymB3o2vAmTsnx0l67",
+          "title": "7/4/26 bed",
+          "addedAt": "2026-07-04",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "16gq4nCB0C2nu43-CCGjNSurqHeIMyqNJ",
+          "title": "7/4/26 style",
+          "addedAt": "2026-07-04",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1wY2b7Lzsp_r0qSys9TPe416PymZiFmzm",
+          "title": "7/4/26 4:59am",
+          "addedAt": "2026-07-04",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1VQc7G5v-Pjvrnr_aq79nYxa29txJRON9",
           "title": "6/19/26 player type",
@@ -1194,6 +1218,6 @@
       "No TikTok posts have been logged for the squad yet. If your edited clips are in Drive and approved, this is the week to post. Check the caption under your clip on the portal, tag @milehicitypickleball, and hit publish.",
       "Two creators have zero edited videos in their Drive folder. If that is you, your first move this week is one edit so you have something ready to post. The squad posts from EDITED only, so an empty folder means nothing goes up for you."
     ],
-    "production": "51 edited videos across the squad this week. Top of production at 11 clips, median at 6."
+    "production": "54 edited videos across the squad this week. Top of production at 14 clips, median at 6."
   }
 }
