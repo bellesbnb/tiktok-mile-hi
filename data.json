@@ -694,16 +694,24 @@
       "joined": "May 2026",
       "vibe": "1 edited · needs more reps",
       "stats": {
-        "editedVideos": 8,
+        "editedVideos": 9,
         "igPosts": 0,
         "igFollowers": 319,
-        "videoCount": 8,
+        "videoCount": 9,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1JpRdgifUaqDp3fE1sUsd8CEvRrkUpP_C",
       "editedClips": [
+        {
+          "driveId": "10loU5oNJCfEp33YEUh89lsvb0RREHtmW",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1HCoif5JsAc_jpKvnET6kPEQmi1OZgQJ_",
           "title": "clip 6/24",
@@ -1196,6 +1204,6 @@
       "Two creators have zero edited videos in their Drive folder. If that is you, your one job this week is to film, edit, and upload one clip. An empty folder means nothing goes live for you.",
       "Several clips added this week are sitting as drafts with no caption or hashtags. If that is you, open your portal card and drop the caption before you post. Tricia pulls from that field, so a blank means it goes out unbranded."
     ],
-    "production": "54 edited videos across the squad this week. Top of production at 14 clips, median at 6."
+    "production": "55 edited videos across the squad this week. Top of production at 14 clips, median at 6."
   }
 }
