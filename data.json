@@ -33,7 +33,17 @@
         "https://www.tiktok.com/en/trending/detail/food-jutsu-trend"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["1","2","3","4","5","6","7","8","9"],
+      "assignedTo": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "trendSource": "Food Jutsu is the number-one TikTok trend of June 2026 per Epidemic Sound, with 36 million-plus posts. Creators do anime-style summoning hand signs and cut on a beat drop to reveal what they summoned. Celebrities including Idris Elba and Keke Palmer have posted versions. The 'Delirious' audio is the canonical sound. Sources: Know Your Meme (confirmed origin March 5, 2026), genz.ai, TikTok trending detail page. Adapts naturally to any venue reveal or outfit transformation.",
       "hookFormat": "transformation"
     },
@@ -50,7 +60,10 @@
         "https://www.tiktok.com/tag/bangladeshsong"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["1","5"],
+      "assignedTo": [
+        "1",
+        "5"
+      ],
       "trendSource": "'Bangladesh' by Ian McConnell is a 49-second track released June 5, 2026 that has gone viral on TikTok with SZA, Chance the Rapper, and Lizzo all engaging. The substitution format swaps 'Bangladesh' for any perpetually unfulfilled ask. Ian McConnell's Season 3 project drops July 10, renewing FYP attention this exact week. Sources: The Daily Star 2026, Yahoo Entertainment July 2026, TikTok #bangladeshsong tag.",
       "hookFormat": "sound trend"
     },
@@ -67,7 +80,11 @@
         "https://www.tiktok.com/discover/confessions-tiktok-trend"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["2","3","7"],
+      "assignedTo": [
+        "2",
+        "3",
+        "7"
+      ],
       "trendSource": "TikTok partnered with Madonna for the Confessions II album launch (July 3, 2026) with a global in-app campaign and real-world pop-ups, pushing confession-format content to every FYP this week. Honest relatable confession videos are a top-performing social proof format because they surface the viewer's own feeling about the sport and invite them to see themselves in it. Sources: TikTok Newsroom July 2026, Social Media Today 'TikTok partners with Madonna for Confessions II.' Both example URLs are TikTok discover pages.",
       "hookFormat": "social proof"
     },
@@ -84,7 +101,12 @@
         "https://www.tiktok.com/discover/sporty-pickle-denver"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["4","6","8","9"],
+      "assignedTo": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
       "trendSource": "POV venue-day-in-life content drives local discovery for sports venues in 2026, with competitors like Sporty Pickle Denver using similar formats to convert scrollers into first-time visitors. Fast-cut POV under 30 seconds outperforms longer walkthroughs for venue accounts because it shows the full experience with zero friction. Sources: TikTok discover results for Sporty Pickle Denver + Feedspot Top 100 Pickleball TikTok Influencers 2026, July 2026.",
       "hookFormat": "pov"
     }
@@ -297,16 +319,56 @@
       "joined": "May 2026",
       "vibe": "Raws in, edits pending",
       "stats": {
-        "editedVideos": 9,
+        "editedVideos": 14,
         "igPosts": 9,
         "igFollowers": 1457,
-        "videoCount": 9,
+        "videoCount": 14,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1DqHe-NznelOogBpNzZUsaNG86jQN7Co8",
       "editedClips": [
+        {
+          "driveId": "1rPbiRGdO8UWEuf04EgmP0Rzu4rBFJeIG",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1fmU-Qv370oN5mek_pUVaHOR7d4qBK_AA",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1_UnygmPLwFIy2sxfFoY-1TrIc3Mq1bNs",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1Ho-zexAxD-uWHDfwrsVbEmxFTCPDJHCp",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1l7BvzYeC6eY4lgjh-v_qOXZ41kWgCdp3",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1nucNh5vLovwLLmN8gLU5MgDun4f02Avf",
           "title": "clip 6/23",
@@ -550,16 +612,48 @@
       "joined": "May 2026",
       "vibe": "Producing fast · 6 clips this week",
       "stats": {
-        "editedVideos": 8,
+        "editedVideos": 12,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 8,
+        "videoCount": 12,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
+        {
+          "driveId": "1bwqC1WHzNGzkFQ7H-jsQLBtEGPhN5FuH",
+          "title": "content 12 · 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1eCXCb_QvFzx9F8x8gTwroI2V0eBfCGlF",
+          "title": "coneten 11 · 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1nEUFnxlGaNK7MMIZfWE6HdeMWrWI1FQN",
+          "title": "clip 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1XEVjoLBkud9LLvgKuFe0EzLFOOqBVXRY",
+          "title": "content10 · 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1HjZO6nQed0fFpVtz3EFM7RQzRu_GZd-F",
           "title": "content8 · 07/03",
@@ -832,16 +926,40 @@
       "joined": "May 2026",
       "vibe": "Just joined the squad",
       "stats": {
-        "editedVideos": 6,
+        "editedVideos": 9,
         "igPosts": 13,
         "igFollowers": 1749,
-        "videoCount": 6,
+        "videoCount": 9,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE",
       "editedClips": [
+        {
+          "driveId": "1coaOp16JwSOBZTXSxz1QDMiBOCCGOBZb",
+          "title": "edited8 · 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1hv1vh5SmKKn4G5BsMoGtaRm9mYP4Gbvk",
+          "title": "edited9 · 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1nD6bjWcSG8-kMKKUiFvO6BTW2dxz9mqQ",
+          "title": "edited7 · 07/08",
+          "addedAt": "2026-07-08",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1xqBlF4z5J3ocgjs6TBW1-KNs5nQERri2",
           "title": "edited6 · 07/03",
@@ -1204,6 +1322,6 @@
       "Two creators have zero edited videos in their Drive folder. If that is you, your one job this week is to film, edit, and upload one clip. An empty folder means nothing goes live for you.",
       "Several clips added this week are sitting as drafts with no caption or hashtags. If that is you, open your portal card and drop the caption before you post. Tricia pulls from that field, so a blank means it goes out unbranded."
     ],
-    "production": "55 edited videos across the squad this week. Top of production at 14 clips, median at 6."
+    "production": "67 edited videos across the squad this week. Top of production at 14 clips, median at 9."
   }
 }
