@@ -126,16 +126,40 @@
       "joined": "May 2026",
       "vibe": "Production leader · 4 edited",
       "stats": {
-        "editedVideos": 14,
+        "editedVideos": 17,
         "igPosts": 8,
         "igFollowers": 913,
-        "videoCount": 14,
+        "videoCount": 17,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
+        {
+          "driveId": "1AmygGuSw1rxuyqU9JjaZ-nKKIgp7ZHNt",
+          "title": "7/12/26 Gatorade",
+          "addedAt": "2026-07-12",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1BDATO5WJqM2rManbrUNx85jQGvkL0lmq",
+          "title": "7/12/26 checkmark",
+          "addedAt": "2026-07-12",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1lSp7ekErYKkNZAnxazT_Gcche8bC535r",
+          "title": "7/12/26 text",
+          "addedAt": "2026-07-12",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1IwIWBp9me99ZoXJymB3o2vAmTsnx0l67",
           "title": "7/4/26 bed",
@@ -1330,6 +1354,6 @@
       "Two creators have no edited clips in their Drive folder yet. If that is you, your one job this week is to film, edit, and upload one clip. An empty folder means nothing goes live for you.",
       "Several clips added this week are still sitting as drafts with no caption or hashtags filled in. If that is you, open your portal card and add the caption before you post. Tricia pulls from that field, so a blank goes out unbranded."
     ],
-    "production": "68 edited clips in Drive across the squad. Two creators lead at 14 clips each. Two creators are still at zero, their folders need a first clip this week."
+    "production": "71 edited videos across the squad this week. Top of production at 17 clips, median at 9."
   }
 }
