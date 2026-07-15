@@ -126,16 +126,40 @@
       "joined": "May 2026",
       "vibe": "Production leader · 4 edited",
       "stats": {
-        "editedVideos": 17,
+        "editedVideos": 20,
         "igPosts": 8,
         "igFollowers": 913,
-        "videoCount": 17,
+        "videoCount": 20,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
+        {
+          "driveId": "12Z_r3dNc-i21C5AB_QZmKRmzfNmnxS1d",
+          "title": "7/14/26 me",
+          "addedAt": "2026-07-14",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "12gW5zilcLyxDrp1lOYMAkHsRNdNSGiA9",
+          "title": "7/14/26 never played",
+          "addedAt": "2026-07-14",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1lisYIFgaZyjMIsHPQeH3kLOGMK6gxUzG",
+          "title": "7/14/26 out of bounds",
+          "addedAt": "2026-07-14",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1AmygGuSw1rxuyqU9JjaZ-nKKIgp7ZHNt",
           "title": "7/12/26 Gatorade",
@@ -526,16 +550,40 @@
       "joined": "May 2026",
       "vibe": "Solid output · 3 edited",
       "stats": {
-        "editedVideos": 6,
+        "editedVideos": 9,
         "igPosts": 31,
         "igFollowers": 1417,
-        "videoCount": 6,
+        "videoCount": 9,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1gWzH_eWudol4o4zbYQOj0LTM2mLo_3Gl",
       "editedClips": [
+        {
+          "driveId": "1GjNBFWmKwY4WiefJYw1xXK68WiQ_yLly",
+          "title": "Final video 9 14/7",
+          "addedAt": "2026-07-14",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1TgKoY6OTL1wK0aQ5wud8fyY5wS0g7PjW",
+          "title": "final video 8 7/14",
+          "addedAt": "2026-07-14",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1036Om4HZ1X1hj7eDSVWQ57SyQzSG1gmp",
+          "title": "final video 7 7/14",
+          "addedAt": "2026-07-14",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1vGzR90hR6MaxndSCrDQSAfyJ8li8RRjP",
           "title": "final video 6 - 6/14",
@@ -1354,6 +1402,6 @@
       "Two creators have no edited clips in their Drive folder yet. If that is you, your one job this week is to film, edit, and upload one clip. An empty folder means nothing goes live for you.",
       "Several clips added this week are still sitting as drafts with no caption or hashtags filled in. If that is you, open your portal card and add the caption before you post. Tricia pulls from that field, so a blank goes out unbranded."
     ],
-    "production": "71 edited videos across the squad this week. Top of production at 17 clips, median at 9."
+    "production": "77 edited videos across the squad this week. Top of production at 20 clips, median at 9."
   }
 }
