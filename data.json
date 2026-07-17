@@ -367,16 +367,40 @@
       "joined": "May 2026",
       "vibe": "Raws in, edits pending",
       "stats": {
-        "editedVideos": 14,
+        "editedVideos": 17,
         "igPosts": 9,
         "igFollowers": 1457,
-        "videoCount": 14,
+        "videoCount": 17,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1DqHe-NznelOogBpNzZUsaNG86jQN7Co8",
       "editedClips": [
+        {
+          "driveId": "1qnUfjBsxhbDltIA4KjITSBur9J-p699V",
+          "title": "clip 07/17",
+          "addedAt": "2026-07-17",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1eyJRj_ZBmqAFY2xROM1AuSZVxKih5xHL",
+          "title": "clip 07/17",
+          "addedAt": "2026-07-17",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "14cxbZfs-FU2Qs51-17c0AJcT7OWDjx2e",
+          "title": "clip 07/17",
+          "addedAt": "2026-07-17",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1rPbiRGdO8UWEuf04EgmP0Rzu4rBFJeIG",
           "title": "clip 07/08",
@@ -684,16 +708,40 @@
       "joined": "May 2026",
       "vibe": "Producing fast · 6 clips this week",
       "stats": {
-        "editedVideos": 12,
+        "editedVideos": 15,
         "igPosts": null,
         "igFollowers": null,
-        "videoCount": 12,
+        "videoCount": 15,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1vn6XwAL59tXRm3H2sGTC1xOOP_vXRAah",
       "editedClips": [
+        {
+          "driveId": "1vx0ECWFZn7vii3Ffyy6RflAmBqn-aEnW",
+          "title": "content · 07/17",
+          "addedAt": "2026-07-17",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1bZpeWUCOWlmcaOjXWpyc4v9hgwKk82Cu",
+          "title": "content · 07/17",
+          "addedAt": "2026-07-17",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "19cKBC8nGaDeBh9n-JGZ47J0E1LhzZehw",
+          "title": "content · 07/17",
+          "addedAt": "2026-07-17",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1bwqC1WHzNGzkFQ7H-jsQLBtEGPhN5FuH",
           "title": "content 12 · 07/08",
@@ -1014,16 +1062,40 @@
       "joined": "May 2026",
       "vibe": "Just joined the squad",
       "stats": {
-        "editedVideos": 9,
+        "editedVideos": 12,
         "igPosts": 13,
         "igFollowers": 1749,
-        "videoCount": 9,
+        "videoCount": 12,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE",
       "editedClips": [
+        {
+          "driveId": "1a9ps8cGBeHBPE89D4Wwgwb3w29tb9uaj",
+          "title": "edited12 · 07/16",
+          "addedAt": "2026-07-16",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1da4s1UVEnG37dOGOfJOXRl0-kZ2qQjeg",
+          "title": "edited11 · 07/16",
+          "addedAt": "2026-07-16",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1TkOzj_P78Pc_OhdYiL9a9UU9XlW7EodQ",
+          "title": "edited10 · 07/16",
+          "addedAt": "2026-07-16",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1coaOp16JwSOBZTXSxz1QDMiBOCCGOBZb",
           "title": "edited8 · 07/08",
@@ -1410,6 +1482,6 @@
       "Two creators have no edited clips in their Drive folder yet. If that is you, your one job this week is to film, edit, and upload one clip. An empty folder means nothing goes live for you.",
       "Several clips added this week are still sitting as drafts with no caption or hashtags filled in. If that is you, open your portal card and add the caption before you post. Tricia pulls from that field, so a blank goes out unbranded."
     ],
-    "production": "78 edited videos across the squad this week. Top of production at 20 clips, median at 9."
+    "production": "87 edited videos across the squad this week. Top of production at 20 clips, median at 11."
   }
 }
