@@ -414,16 +414,40 @@
       "joined": "May 2026",
       "vibe": "Raws in, edits pending",
       "stats": {
-        "editedVideos": 20,
+        "editedVideos": 23,
         "igPosts": 9,
         "igFollowers": 1457,
-        "videoCount": 20,
+        "videoCount": 23,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1DqHe-NznelOogBpNzZUsaNG86jQN7Co8",
       "editedClips": [
+        {
+          "driveId": "1McIeTiDB-jgqLguXlKgnK50wv-LX7Km_",
+          "title": "clip 07/31",
+          "addedAt": "2026-07-31",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1OQ1c3KoVPGIAlnYpitikjzFHcyCCefe3",
+          "title": "clip 07/31",
+          "addedAt": "2026-07-31",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1O8k1uE4dOkbt7dC69dwc6seJFNfx6Kr0",
+          "title": "clip 07/31",
+          "addedAt": "2026-07-31",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1iSH60dTJ048g6PbvJlIF56f27-WintRo",
           "title": "clip 07/22",
@@ -1272,16 +1296,40 @@
       "joined": "May 2026",
       "vibe": "Just joined the squad",
       "stats": {
-        "editedVideos": 15,
+        "editedVideos": 18,
         "igPosts": 13,
         "igFollowers": 1749,
-        "videoCount": 15,
+        "videoCount": 18,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1W13fJzDJw6KvmL5XiOC_M1z8Z7chR0FE",
       "editedClips": [
+        {
+          "driveId": "1jQb6IncqoUC-xT2N7MvGPrK0is-0t6L4",
+          "title": "edited18 · 07/31",
+          "addedAt": "2026-07-31",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1-nvTbrE-OEsCkt7Sz3vPtTL0737VOTLm",
+          "title": "edited17 · 07/31",
+          "addedAt": "2026-07-31",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1vwet--wkY5XpuNolO1HZpLicLNTemOHH",
+          "title": "edited16 · 07/31",
+          "addedAt": "2026-07-31",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1av1bZHLSYxKs6S3KMppFL6zr4ML9O649",
           "title": "edited14 · 07/22",
@@ -1761,6 +1809,6 @@
       "Two creators still have zero edited clips in their EDITED folder. If that is you, your one task before Sunday is to shoot one clip, edit it, and drop it in your EDITED folder. An empty folder means nothing goes live for you this week and the @milehicitypickleball feed cannot tag you in.",
       "Several clips from the Jul 22 session are sitting in draft status with no caption or hashtags. If that is you, open your EDITED folder, finish the caption and hashtags, and flip the status to ready before Friday. Draft clips do not post."
     ],
-    "production": "99 edited videos across the squad this week. Top of production at 23 clips, median at 11."
+    "production": "105 edited videos across the squad this week. Top of production at 23 clips, median at 11."
   }
 }
