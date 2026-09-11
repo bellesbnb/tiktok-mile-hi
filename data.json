@@ -33,7 +33,17 @@
         "https://www.tiktok.com/discover/paparazzi-lady-gaga-remix-tik-tok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["1","2","3","4","5","6","7","8","9"],
+      "assignedTo": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
       "trendSource": "Alximo's dubstep remix of Lady Gaga's 'Paparazzi' is one of the top trending sounds in August 2026, powering a glow-up transformation format where creators open on their worst angle and hard-cut to a completely different version of themselves at the beat drop. Sources: newengen.com August 2026 TikTok trends; Spotify 'Paparazzi (Dubstep) VIRAL TIKTOK 2026' playlist; example links are TikTok discover pages.",
       "hookFormat": "transformation"
     },
@@ -50,7 +60,10 @@
         "https://www.tiktok.com/discover/seeing-how-my-mom-would-respond-to-bullies"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["1","5"],
+      "assignedTo": [
+        "1",
+        "5"
+      ],
       "trendSource": "The 'Seeing How My X Would Respond to a Bully' format is one of TikTok's biggest formats in August 2026, where creators film a person's real unscripted reaction to receiving insults or trash talk on camera. The sports version adapts this to friendly on-court chirping between doubles partners. Source: newengen.com August 2026 TikTok trends; example links are TikTok discover pages.",
       "hookFormat": "duet/stitch"
     },
@@ -67,7 +80,11 @@
         "https://www.tiktok.com/discover/my-parents-at-age-trend"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["2","3","7"],
+      "assignedTo": [
+        "2",
+        "3",
+        "7"
+      ],
       "trendSource": "Pitbull's 'Hey Baby (Drop It to the Floor)' ft. T-Pain is the trending sound powering the 'Me at the Same Age as My Parents' comparison format in August 2026. Creators hold up a photo of a parent at their exact current age and cut to themselves for a comedic or nostalgic contrast, dominating the FYP across demographics in late July and August. Source: newengen.com August 2026 TikTok trends; example links are TikTok discover pages.",
       "hookFormat": "social proof"
     },
@@ -84,7 +101,12 @@
         "https://www.tiktok.com/discover/pickleball"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
-      "assignedTo": ["4","6","8","9"],
+      "assignedTo": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
       "trendSource": "The 'POV: you finally found your [thing]' format continues as a top-performing fitness and lifestyle format in 2026, using second-person framing to make every viewer feel personally invited into the experience. For beginner-facing venues like Mile Hi, the POV walk-in converts curious scrollers into first-time visitors because entering the space is the entire video. Source: accio.com 'POV Trend on TikTok 2026'; example links are TikTok discover pages.",
       "hookFormat": "pov"
     }
@@ -104,16 +126,40 @@
       "joined": "May 2026",
       "vibe": "Production leader · 4 edited",
       "stats": {
-        "editedVideos": 23,
+        "editedVideos": 26,
         "igPosts": 8,
         "igFollowers": 913,
-        "videoCount": 23,
+        "videoCount": 26,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/15HQV-FLJ9u-poqK4zicPI4xl_4gKiWit",
       "editedClips": [
+        {
+          "driveId": "1Fqv-ho1eD-wWMEMC1g5t_Bm33R_W3YQt",
+          "title": "8/6/26 escape room",
+          "addedAt": "2026-08-06",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1ToVHBXVYEnH5UgKKq866rMCg0JZ7HC7t",
+          "title": "8/6/26 expensive paddle",
+          "addedAt": "2026-08-06",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1CBnq28jp_JHNZiMvkGNN5Ho_wYwwjbz1",
+          "title": "8/6/26 I'm home",
+          "addedAt": "2026-08-06",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1NB0vOUBVYItAJhe2Tp4vdSKIB5SZoGZj",
           "title": "7/22/26 rich in life",
@@ -1809,6 +1855,6 @@
       "Two creators still have zero edited clips in their EDITED Drive folder. If that is you, your one task this week is to film one clip, edit it, and drop it in your EDITED folder before Sunday. An empty folder means nothing posts for you this week and the @milehicitypickleball feed cannot tag you in.",
       "Several clips from the Jul 22 and Jul 31 sessions are sitting in draft status with no captions or hashtags. If that is you, open your EDITED folder this week, finish the caption and hashtags, and flip the status to ready before Friday. Draft clips do not post."
     ],
-    "production": "Squad total holds at 105 edited clips across 7 of 9 creators. New draft clips added during the Jul 31 session need captions before they can post. Two creators remain at zero edited output and are the week's priority."
+    "production": "108 edited videos across the squad this week. Top of production at 26 clips, median at 18."
   }
 }
