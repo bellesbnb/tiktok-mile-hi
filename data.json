@@ -490,16 +490,40 @@
       "joined": "May 2026",
       "vibe": "Raws in, edits pending",
       "stats": {
-        "editedVideos": 23,
+        "editedVideos": 26,
         "igPosts": 9,
         "igFollowers": 1457,
-        "videoCount": 23,
+        "videoCount": 26,
         "totalLikes": 0,
         "totalViews": 0,
         "bestVideo": 0
       },
       "editedFolder": "https://drive.google.com/drive/folders/1DqHe-NznelOogBpNzZUsaNG86jQN7Co8",
       "editedClips": [
+        {
+          "driveId": "1NMYKoHjXxcec0Zs4d_C9L1cPut-5Rltk",
+          "title": "clip 09/29",
+          "addedAt": "2026-09-29",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1EXcC9lMxQp_p1IXD9Z43pmlrw4-kNUXe",
+          "title": "clip 09/29",
+          "addedAt": "2026-09-29",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
+        {
+          "driveId": "1oQyPZLW7Jltj9JlBHxBeA1s8SA0DwzEq",
+          "title": "clip 09/29",
+          "addedAt": "2026-09-29",
+          "caption": "",
+          "hashtags": [],
+          "status": "draft"
+        },
         {
           "driveId": "1McIeTiDB-jgqLguXlKgnK50wv-LX7Km_",
           "title": "clip 07/31",
@@ -1885,6 +1909,6 @@
       "Two creators still have zero edited clips in their EDITED Drive folder. If that is you, your one task this week is to film one clip, edit it, and drop it in your EDITED folder before Sunday. An empty folder means nothing posts for you this week.",
       "Several clips from recent sessions are sitting in draft status with no captions or hashtags yet. If that is you, open your EDITED folder this week, finish the caption and hashtags, and flip the status to ready before Friday. Draft clips do not post."
     ],
-    "production": "108 edited videos across the squad. Top of production at 26 clips, median at 18. Two creators at zero edits and multiple clips in draft still need captions."
+    "production": "111 edited videos across the squad this week. Top of production at 26 clips, median at 11."
   }
 }
