@@ -4,7 +4,7 @@
     "shortName": "Mile Hi Pickleball",
     "tagline": "The TikTok Roster",
     "season": "Summer '26",
-    "weekLabel": "Week of Sep 28 · Oct 4",
+    "weekLabel": "Week of Oct 5 · Oct 11",
     "intro": "Nine voices. One court. Every week, fresh stories from the players shaping pickleball culture in Colorado.",
     "logo": "assets/logo.png",
     "siteUrl": "https://milehicitypickleball.com",
@@ -22,15 +22,15 @@
   "thisWeek": [
     {
       "id": "trend-1",
-      "title": "nicole kidman era unlocked",
-      "tag": "NICOLE ERA",
+      "title": "ramalama court walk",
+      "tag": "COURT WALK NOW",
       "tagColor": "burnt",
-      "startDate": "Sep 28",
-      "endDate": "Oct 4",
-      "brief": "Search 'Nicole Kidman by ADÉLA' in TikTok sounds and lock it in. This sound has 1.5 million uses and is all over the FYP right now, powering outfit reveals and glow-up formats. Open close on your JOOLA paddle tapping the court floor, completely still. When the vocals hit, cut hard to you standing in front of the navy GAME ON wall, full tenniscore fit, paddle raised to shoulder, chin up, eyes locked on camera. On-screen text over the cut: 'she found her sport.' Hold that frame for 3 seconds, then let the song carry 2 more quick cuts of you playing on Court 1. Portrait, under 20 seconds. Caption: 'nicole kidman era unlocked, mile hi city pickleball did this to me.'",
+      "startDate": "Oct 5",
+      "endDate": "Oct 11",
+      "brief": "Search 'Ramalama Bang Bang Roisin Murphy' in TikTok sounds and lock it in before Sunday. This costume walk format has millions of uses right now on the FYP. Set your camera low at ankle height on the court, pointed up toward you. Walk slowly in full tenniscore kit toward the navy GAME ON wall, dragging your JOOLA paddle handle lightly on the floor behind you as you go. Eyes forward, full confidence the whole time. When the chorus hits, cut to a slo-mo overhead smash on Court 1. On-screen text over the final frame: 'the courts chose me.' Portrait, under 20 seconds. Caption: 'ramalama bang bang and mile hi city pickleball has me in a full chokehold.'",
       "examples": [
-        "https://www.tiktok.com/discover/Nicole-Kidman-Adela-trend",
-        "https://www.tiktok.com/discover/Nicole-Kidman-Adela-dance"
+        "https://www.tiktok.com/discover/ramalama-bang-bang-tiktok-walk",
+        "https://www.tiktok.com/discover/costume-walk-trend-2026"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
@@ -44,40 +44,40 @@
         "8",
         "9"
       ],
-      "trendSource": "ADÉLA's 'Nicole Kidman' hit No. 22 on the Billboard Hot 100 dated Sep 26, 2026 and has over 1.5 million TikTok uses, powering outfit reveals, manifestation videos, and glow-up formats across the FYP this week. Source: Billboard.com Sep 2026 chart coverage; example links are TikTok discover pages.",
+      "trendSource": "Roisin Murphy's 'Ramalama (Bang Bang)' resurfaced in September 2026 as the soundtrack to TikTok's costume walk format, with creators filming low-angle stalking walks toward the camera in full looks. The sound and format are both explicitly trending in early October 2026. Source: newengen.com October 2026 TikTok trends report; examples link to TikTok discover pages.",
       "hookFormat": "sound trend"
     },
     {
       "id": "trend-2",
-      "title": "5 reasons i can't leave court 1",
-      "tag": "COURT REASONS",
+      "title": "pov: mile hi found you",
+      "tag": "FOUND BY COURTS",
       "tagColor": "aqua",
-      "startDate": "Sep 28",
-      "endDate": "Oct 4",
-      "brief": "Open with on-screen text: '5 reasons i am physically incapable of leaving Court 1 at Mile Hi.' Then 5 fast cuts, each 2 to 3 seconds, labeled with a bold Anton number and a one-line reason. Suggested reasons, but make them yours: 1. the navy GAME ON wall just hits. 2. every dink i land here feels personal. 3. the JOOLA paddles are literally waiting for me. 4. Coach Jill said i was improving, so now i live here. 5. 11 courts and none of them have seen me leave yet. Any punchy, energetic audio underneath, keep the cuts tight. Portrait, under 30 seconds. Caption: 'five reasons i am never leaving mile hi city pickleball and court 1 has my whole soul.'",
+      "startDate": "Oct 5",
+      "endDate": "Oct 11",
+      "brief": "First-person POV of someone who never thought they were a pickleball person. Open with a static shot of you standing at the Mile Hi front entrance, looking in like it is your first time. On-screen text: 'POV you walked in for one free trial class.' Cut to you mid-rally on Court 1 in a full tenniscore fit with the JOOLA paddle, Coach Jill visible at the sideline if possible. Text: 'two months later, you live here.' Close on a slow push-in toward the navy GAME ON wall, paddle raised to your chest. Text: 'mile hi city pickleball got you.' No voiceover needed. Any confident warm audio underneath. Portrait, under 25 seconds. Caption: 'did not plan on becoming a pickleball person · mile hi city pickleball had other plans.'",
       "examples": [
-        "https://www.tiktok.com/discover/reasons-i-cant-leave-trend",
-        "https://www.tiktok.com/discover/number-list-pickleball"
+        "https://www.tiktok.com/discover/pov-found-my-sport",
+        "https://www.tiktok.com/discover/pov-pickleball-origin-story"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
         "1",
         "5"
       ],
-      "trendSource": "The number-list format ('5 reasons I cannot leave X') is a consistently high-performing format for community and venue brands, spiking each fall as creators make obsession lists for their favorite places. It delivers immediate value to viewers and drives high save and share rates. Example links are TikTok discover pages.",
-      "hookFormat": "number+promise"
+      "trendSource": "POV origin story formats ('POV you walked in once and never left') are a consistently high-converting format for fitness venues and community brands in fall 2026, driving comment engagement as viewers share their own discovery stories. Inspired by organic creator content across the pickleball and fitness FYP. Examples link to TikTok discover pages.",
+      "hookFormat": "pov"
     },
     {
       "id": "trend-3",
-      "title": "first fall court day",
-      "tag": "FALL COURT ERA",
+      "title": "tenniscore glow-up unlocked",
+      "tag": "GLOW UP COURT",
       "tagColor": "butter",
-      "startDate": "Sep 28",
-      "endDate": "Oct 4",
-      "brief": "Fall transition content is flooding TikTok the last week of September as creators document their first autumn routines. Bring it to Mile Hi. Film a 4-clip sequence: cool air hitting your face as you push through the front doors, a close-up of a warm drink before you grab your JOOLA paddle, a full-length shot of your fall tenniscore fit with the navy GAME ON wall behind you, then a slow-mo dink at the kitchen line to close it out. On-screen text builds across the clips: 'fall just arrived. the court was already ready.' No talking needed. Use a warm, confident audio, not aggressive, just cozy. Portrait, under 25 seconds. Caption: 'fall court day at mile hi city pickleball hits completely different, court 1 forever.'",
+      "startDate": "Oct 5",
+      "endDate": "Oct 11",
+      "brief": "Classic before/after transformation in one continuous clip. First half: casual clothes, zero sports energy, walking through the Mile Hi lobby looking uncertain. On-screen text: 'me, knowing nothing about pickleball.' Hard cut on a beat drop to you in a full tenniscore fit standing in front of the navy GAME ON wall, JOOLA paddle raised, full confidence. On-screen text: 'me, after 8 weeks at mile hi city pickleball.' Hold for 3 seconds, then cut to a clean rally clip on Court 1. Pick a sound with a hard drop at the midpoint so the cut lands with maximum impact. Portrait, under 20 seconds. Caption: 'the tenniscore glow up is real and mile hi city pickleball did this and i am not sorry about it.'",
       "examples": [
-        "https://www.tiktok.com/discover/first-fall-day-routine-2026",
-        "https://www.tiktok.com/discover/fall-court-aesthetic"
+        "https://www.tiktok.com/discover/tenniscore-glow-up-before-after",
+        "https://www.tiktok.com/discover/pickleball-transformation-tiktok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
@@ -85,20 +85,20 @@
         "3",
         "7"
       ],
-      "trendSource": "Fall transition content reliably takes over TikTok in the last week of September. Creators document their first autumn routines, 'first fall X' formats, and seasonal aesthetic shifts across fitness and lifestyle verticals. Adapting this for pickleball puts Mile Hi inside one of the biggest seasonal content spikes of the year. Example links are TikTok discover pages.",
-      "hookFormat": "seasonal"
+      "trendSource": "Tenniscore transformation and before/after glow-up content is one of fall 2026's most consistent formats for racquet sport creators, blending fashion credibility with sport identity in one video. The format drives high save rates as viewers aspire to the aesthetic. Source: later.com tiktok trends 2026 coverage; examples link to TikTok discover pages.",
+      "hookFormat": "transformation"
     },
     {
       "id": "trend-4",
-      "title": "grwm court day morning",
-      "tag": "COURT DAY GRWM",
+      "title": "be ok but make it pickleball",
+      "tag": "BE OK PICKLEBALL",
       "tagColor": "denim",
-      "startDate": "Sep 28",
-      "endDate": "Oct 4",
-      "brief": "Film your exact morning before pulling up to Court 1, fast-cut GRWM style. Start with the alarm on your phone, cut to your tenniscore fit laid out flat, a close-up of the JOOLA paddle by the door, then you walking through the Mile Hi entrance with the 11 courts opening up behind you. Each clip gets a bold Anton label on screen: ALARM. FIT. DRIVE. COURT 1. Add a one-liner at the end as voice-over or text, something like: 'this is a sickness honestly.' Any high-energy trending audio underneath. Portrait, under 30 seconds. Caption: 'the court day routine has fully taken over my entire morning and mile hi city pickleball is not apologizing for it.'",
+      "startDate": "Oct 5",
+      "endDate": "Oct 11",
+      "brief": "Search 'Be OK by Ingrid Michaelson' in TikTok sounds and use it. The format is simple: do a happy, upbeat dance in front of the navy GAME ON wall while on-screen text reveals your actual situation. Set up text reveals timed to the music: 'everything is fine.' Then reveal what is fine: 'i am on Court 1 four times this week.' Next beat: 'Coach Jill knows my order.' Next beat: 'i have named all 11 courts.' Final text: 'mile hi city pickleball is a lifestyle and i fully support it.' Keep the dance light and unbothered. Portrait, under 20 seconds. Caption: 'totally fine. absolutely normal. completely not obsessed with mile hi city pickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/grwm-court-day",
-        "https://www.tiktok.com/discover/grwm-pickleball"
+        "https://www.tiktok.com/discover/be-ok-ingrid-michaelson-trend",
+        "https://www.tiktok.com/discover/be-ok-dance-tiktok-2026"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": [
@@ -107,8 +107,8 @@
         "8",
         "9"
       ],
-      "trendSource": "GRWM (Get Ready With Me) remains one of TikTok's most durable formats into fall 2026, with fitness and venue creators using it to make their preparation ritual feel aspirational. The sport-morning routine version converts casual scrollers into first-time visitors by showing the real behind-the-scenes of showing up. Source: explodingtopics.com TikTok Trends Sep 2026; example links are TikTok discover pages.",
-      "hookFormat": "grwm"
+      "trendSource": "Ingrid Michaelson's 'Be OK' is trending in fall 2026 for the 'acting fine while text reveals the real situation' humor format, powering relatable lifestyle and fitness videos across the FYP. Source: newengen.com October 2026 TikTok trends report; examples link to TikTok discover pages.",
+      "hookFormat": "social proof"
     }
   ],
   "creators": [
@@ -1897,18 +1897,18 @@
     }
   ],
   "weeklyReport": {
-    "weekOf": "Sep 28 · Oct 4",
-    "generatedAt": "2026-09-28T13:23:27Z",
-    "summary": "No TikTok stats logged for the Aug 3 · Aug 9 period. Drive production holds at 108 edited clips across the squad, with several recent clips in draft status still needing captions before they can post. Four new trends for Sep 28 · Oct 4 cover sound trend, number list, seasonal fall, and GRWM formats.",
+    "weekOf": "Oct 5 · Oct 11",
+    "generatedAt": "2026-10-05T13:21:24Z",
+    "summary": "No TikTok stats logged for the Sep 28 · Oct 4 period. Drive production holds at 111 edited clips across the squad, with several clips still in draft status needing captions before they can post. Four new trends for Oct 5 · Oct 11 cover a viral sound walk, a POV origin story, a tenniscore transformation, and a social proof humor format.",
     "topVideo": null,
     "topCreator": {
       "name": "The squad",
-      "reason": "No TikTok stats logged yet for the last period. In Drive, the top creator is at 26 clips with several others in the 18 to 23 range. Squad-wide recognition for keeping the edit folders active heading into fall."
+      "reason": "No TikTok stats logged for the Sep 28 · Oct 4 period. In Drive, top of production is at 26 clips each, with several others in the 11 to 18 range. Squad-wide recognition for keeping production active into October."
     },
     "watchOuts": [
-      "Two creators still have zero edited clips in their EDITED Drive folder. If that is you, your one task this week is to film one clip, edit it, and drop it in your EDITED folder before Sunday. An empty folder means nothing posts for you this week.",
-      "Several clips from recent sessions are sitting in draft status with no captions or hashtags yet. If that is you, open your EDITED folder this week, finish the caption and hashtags, and flip the status to ready before Friday. Draft clips do not post."
+      "Two creators still have zero edited clips in their Drive EDITED folder. If that is you, your one task this week is to film one clip, edit it, and drop it into your EDITED folder before Sunday. An empty folder means nothing posts for you this week.",
+      "Several clips from recent sessions are sitting in draft status with no captions or hashtags yet. If that is you, open your EDITED folder, finish the caption and hashtags, and flip the status to ready before Friday. Draft clips do not post."
     ],
-    "production": "111 edited videos across the squad this week. Top of production at 26 clips, median at 11."
+    "production": "111 edited videos across the squad. Top of production at 26 clips each, median at 11."
   }
 }
