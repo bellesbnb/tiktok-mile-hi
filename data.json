@@ -4,7 +4,7 @@
     "shortName": "Mile Hi Pickleball",
     "tagline": "The TikTok Roster",
     "season": "Summer '26",
-    "weekLabel": "Week of Nov 2 · Nov 8",
+    "weekLabel": "Week of Nov 9 · Nov 15",
     "intro": "Nine voices. One court. Every week, fresh stories from the players shaping pickleball culture in Colorado.",
     "logo": "assets/logo.png",
     "siteUrl": "https://milehicitypickleball.com",
@@ -22,71 +22,71 @@
   "thisWeek": [
     {
       "id": "trend-1",
-      "title": "dame hombro squad shimmy",
-      "tag": "SQUAD SHOULDER ERA",
+      "title": "grwm: court edition loading",
+      "tag": "COURT PREP GRWM",
       "tagColor": "burnt",
-      "startDate": "Nov 2",
-      "endDate": "Nov 8",
-      "brief": "Search 'Dame Hombro' by Bulin 47 on TikTok and save it before you film. It is a dembow bop confirmed in the TikTok top 10 the week of November 1, and creators are doing a shoulder-shimmy group moment to it. Film yourself at Mile Hi Court 1 or in front of the navy GAME ON wall: hold your JOOLA paddle in one hand and do the shoulder shimmy (lean side to side, roll your shoulder into it, stay on beat). On-screen text: 'the dame hombro era has reached the courts.' Solo works great, or pull in one or two people next to you. Portrait, under 15 seconds. Caption: 'dame hombro · mile hi edition · @milehicitypickleball.'",
+      "startDate": "Nov 9",
+      "endDate": "Nov 15",
+      "brief": "Start at 0% in your regular clothes outside Mile Hi. Each cut adds 25%: grab your JOOLA paddle (25%), lace up your court shoes in the lobby (50%), walk through the door to Court 1 (75%), be mid-rally at the net looking fully locked in (100% LOADED). On-screen text at each cut shows the percentage loading bar. Use any upbeat track. Portrait, under 20 seconds. Caption: 'court edition: loading complete · see u at mile hi · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/dame-hombro-bulin-47-trend",
-        "https://www.tiktok.com/discover/dando-hombro-squad-tiktok"
+        "https://www.tiktok.com/discover/grwm-loading-fitness",
+        "https://www.tiktok.com/discover/grwm-loading-trend-2026"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["1","2","3","4","5","6","7","8","9"],
-      "trendSource": "Dame Hombro by Bulin 47, Kevin Wai and Breyco En Producidera is a dembow track confirmed in the TikTok top 10 for the week of November 1, 2026 per TokChart's November 1 trending sounds chart. The move is 'dando hombro,' a shoulder shimmy that squads and teams are filming together. Examples link to TikTok discover pages as specific video URLs could not be confirmed.",
-      "hookFormat": "sound trend"
+      "trendSource": "The GRWM Loading format, where creators film themselves going from 0% to 100% with each cut, is listed as one of the top GRWM formats in Later's October 2026 trend roundup. It has expanded beyond beauty into fitness and venue content across the platform. This is a non-pickleball GRWM format adapted for the Mile Hi pre-court routine.",
+      "hookFormat": "grwm"
     },
     {
       "id": "trend-2",
-      "title": "thought it was vs. what it is",
-      "tag": "EXPECTATIONS SHATTERED",
+      "title": "3 things nobody tells you",
+      "tag": "BEGINNER TRUTH DROP",
       "tagColor": "aqua",
-      "startDate": "Nov 2",
-      "endDate": "Nov 8",
-      "brief": "Direct to camera at Mile Hi, no fancy editing needed. First shot: stand in the lobby or outside looking unsure, on-screen text 'me thinking pickleball was a retirement sport.' Hard jump-cut to second shot: you are mid-rally at Court 1 with your JOOLA paddle, full send, big energy, on-screen text 'me now: cannot be stopped.' That is the whole video. No music requirement, pick anything upbeat. Portrait, under 20 seconds. Caption: 'i was so wrong and i apologize to pickleball · @milehicitypickleball.' This is a non-pickleball viral transformation format that works for any beginner sport story.",
+      "startDate": "Nov 9",
+      "endDate": "Nov 15",
+      "brief": "Talking-head or on-screen text rapid-fire format, no fancy editing needed. Open with on-screen title: '3 things nobody tells you about pickleball.' Then 3 quick cuts: 1) 'it is not a retirement sport' (show yourself rallying hard at Court 1), 2) 'the kitchen rule will confuse you for one day, then click' (mime confusion then relief), 3) 'you will not leave after one session' (show yourself still on the court, smiling). End on-screen: 'Coach Jill will explain the rest · 11 courts waiting · mile hi.' JOOLA paddle in hand the whole time. Portrait, under 25 seconds. Caption: 'consider yourself warned · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/thought-pickleball-was-for-old-people",
-        "https://www.tiktok.com/discover/expectations-vs-reality-sports-tiktok"
+        "https://www.tiktok.com/discover/3-things-nobody-tells-you-pickleball",
+        "https://www.tiktok.com/discover/number-facts-sports-tiktok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["1","5"],
-      "trendSource": "The 'what I thought X would be vs. what it actually is' jump-cut transformation format is one of the highest-retention hooks on TikTok in November 2026, running across fitness, venue discovery, and beginner sport content. PlayByPoint's pickleball club TikTok guide cites expectation-vs-reality as a top-performing format for beginner-friendly clubs. This is a non-pickleball viral trend adapted for a Mile Hi first-session story. Examples link to TikTok discover pages.",
-      "hookFormat": "transformation"
+      "trendSource": "The number-plus-promise format ('3 things about X') is one of the most consistent high-retention hooks on TikTok for fitness and venue content in 2026, per SocialZ.ai's 52-video-ideas guide for 2026. PlayByPoint's pickleball club TikTok guide confirms quick-tip and rule-breakdown videos as top beginner-funnel content for clubs. Coach Jill name-drop adds Mile Hi credibility and grounds the tip in the actual venue.",
+      "hookFormat": "number+promise"
     },
     {
       "id": "trend-3",
-      "title": "dragged here, now i live here",
-      "tag": "DRAGGED HERE FOREVER",
+      "title": "pov: you just found your court",
+      "tag": "FOUND MY COURT POV",
       "tagColor": "butter",
-      "startDate": "Nov 2",
-      "endDate": "Nov 8",
-      "brief": "Solo talking-head or two-person clip at Mile Hi Court 1. Open with on-screen text: 'my friend dragged me here one time.' Cut to you smashing a rally, laughing at the net, or just standing at Court 1 looking very comfortable with your JOOLA paddle in hand. End on-screen text: 'i have not left.' The format runs solo (you talking to your past self) or you bring an actual friend who came once and stayed. No fancy transitions needed. Portrait, under 20 seconds. Caption: 'this place does something to people · @milehicitypickleball. tag the friend who started it.'",
+      "startDate": "Nov 9",
+      "endDate": "Nov 15",
+      "brief": "Film in portrait using a simple two-shot edit or the split-screen template. First shot: your face in selfie-mode walking through Mile Hi looking genuinely impressed, eyes going wide as you take in the 11 courts. Immediate cut or bottom frame: what you are actually seeing from your point of view, the navy GAME ON wall, the full court spread, players rallying. On-screen text on the first shot: 'POV: you just found the place.' On-screen text on the second shot: 'mile hi · 11 courts · right here in Denver.' No voiceover needed. Portrait, under 15 seconds. Caption: 'the reaction is always the same · first time at mile hi · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/dragged-here-now-i-live-here-tiktok",
-        "https://www.tiktok.com/discover/friend-dragged-me-sport-venue-tiktok"
+        "https://www.tiktok.com/discover/pov-split-screen-reaction-tiktok",
+        "https://www.tiktok.com/discover/pov-found-my-place-venue-tiktok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["2","3","7"],
-      "trendSource": "The 'dragged here once, now I live here' social proof hook is a high-engagement word-of-mouth format running across fitness, coffee shops, and venue content on TikTok in November 2026 per SocialPilot's November 2026 social media trends guide. PlayByPoint's pickleball club TikTok guide confirms the friend-referral narrative as a top beginner-to-regular conversion hook for club content. This is a non-pickleball viral trend adapted for Mile Hi courts. Examples link to TikTok discover pages.",
-      "hookFormat": "social proof"
+      "trendSource": "The POV split-screen format, selfie reaction shot paired with what the creator is looking at, is listed in Later's October 2026 trend roundup as one of the defining Gen Z POV formats this fall, with strong performance for venue discovery content. This is a non-pickleball viral format adapted for a first-court-visit reaction at Mile Hi.",
+      "hookFormat": "pov"
     },
     {
       "id": "trend-4",
-      "title": "november courts hit different",
-      "tag": "NOVEMBER COURT ERA",
+      "title": "someone's gotta hold it down",
+      "tag": "HOLDING IT DOWN ERA",
       "tagColor": "denim",
-      "startDate": "Nov 2",
-      "endDate": "Nov 8",
-      "brief": "Film an atmospheric 10-second clip of Mile Hi any day this week: the 11 indoor courts lit up, a few players rallying, that warm court-light November energy. No voiceover needed. On-screen text: 'november on an indoor court just hits different.' Then cut to a 5-second rally clip with your JOOLA paddle in hand, smiling. End on-screen text: 'grateful for 11 courts and zero weather drama.' Pick any upbeat track. Portrait, under 20 seconds. Caption: 'the november court era is real · come find out · @milehicitypickleball.' This is the seasonal hook for the first week of November as outdoor activity drops and people shift indoors.",
+      "startDate": "Nov 9",
+      "endDate": "Nov 15",
+      "brief": "Search 'Ain't In LA' by ADELA on TikTok and save it before you film. The trend is 'someone's gotta hold it down,' filmed at the place where the loyal ones stay while everyone else has gone elsewhere. Film yourself at Mile Hi Court 1 or in front of the navy GAME ON wall, holding your JOOLA paddle, owning the court with full confidence. On-screen text: 'everyone went skiing · someone's gotta hold it down · mile hi november.' Stay on beat, shoulders relaxed. Portrait, under 15 seconds. Caption: 'the courts are open · the real ones know · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/november-indoor-court-seasonal-tiktok",
-        "https://www.tiktok.com/discover/november-hits-different-fitness-tiktok"
+        "https://www.tiktok.com/discover/aint-in-la-adela-someone-gotta-hold-it-down",
+        "https://www.tiktok.com/discover/someone-gotta-hold-it-down-tiktok-trend"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["4","6","8","9"],
-      "trendSource": "Indoor sport venues see a measurable TikTok engagement spike in early November as outdoor activity drops and creators post gratitude and seasonal-transition content. The 'this hits different in November' seasonal moment hook is performing well on venue and fitness accounts this week per SocialPilot's November 2026 social media trends guide. Examples link to TikTok discover pages.",
-      "hookFormat": "seasonal"
+      "trendSource": "NapoleonCat's November 2026 trend roundup confirms 'Ain't In LA' by ADELA as the audio behind the 'someone's gotta hold it down' trend, where creators film themselves at their loyalty spot while others have gone elsewhere. This is a real trending sound active in November 2026 and a non-pickleball format adapted for Mile Hi's indoor courts as ski season pulls people away from outdoor activity.",
+      "hookFormat": "sound trend"
     }
   ],
   "creators": [
@@ -780,19 +780,19 @@
     }
   ],
   "weeklyReport": {
-    "weekOf": "Nov 2 · Nov 8",
-    "generatedAt": "2026-11-02T13:19:00Z",
-    "summary": "No TikTok performance data was logged for Oct 26 to Nov 1. Drive production holds steady at 111 edited clips across 9 creators. Four new trends for Nov 2 to Nov 8 cover a squad shoulder-shimmy to 'Dame Hombro' (TikTok top 10 this week), an expectations-vs-reality transformation, a word-of-mouth social proof hook, and a November indoor-court seasonal moment.",
+    "weekOf": "Nov 9 · Nov 15",
+    "generatedAt": "2026-11-09T13:11:22Z",
+    "summary": "No TikTok performance data was logged for Nov 2 to Nov 8. Drive production holds at 111 edited clips across 9 creators. Four new trends for Nov 9 to Nov 15 cover a GRWM Loading court-prep format, a number-plus-promise beginner tip drop, a POV split-screen first-court discovery, and a sound trend adaptation of 'Ain't In LA' by ADELA.",
     "topVideo": null,
     "topCreator": {
       "name": "The squad",
-      "reason": "No TikTok performance data exists for the prior week. Drive production holds at 111 edited clips total, with top producers at 26 clips each and the full squad moving into November."
+      "reason": "No TikTok performance data exists for the prior week. Drive production holds at 111 edited clips total, with top producers at 26 clips each and the full squad continuing into mid-November."
     },
     "watchOuts": [
-      "Two creators still have zero clips in their Drive EDITED folder. If that is you, your one task this week is to film one clip, edit it, and drop it into your EDITED folder before Sunday. An empty folder means nothing posts for you this week.",
-      "Several recent clips are sitting in draft status with no captions or hashtags added. If that is you, open your folder, pick one clip, add a caption plus hashtags, and flip the status to ready before Thursday. Draft clips cannot go live.",
-      "No TikTok video links came in from last week. If you posted, ping Tricia with the link so it can be tracked. The squad needs those numbers to see what is working."
+      "Two creators still have zero clips in their EDITED folder. If that is you, one clip this week fixes it. Film one, edit it, and drop it in your EDITED folder before Sunday.",
+      "Several recent clips are sitting in draft with no captions or hashtags added. If that is you, open your folder, pick one clip, add a caption plus hashtags, and flip the status to ready before Thursday.",
+      "No TikTok video links came in from last week. If you posted, ping Tricia with the link so the squad can see what is landing."
     ],
-    "production": "111 edited videos across 9 creators. Top production at 26 clips each, median around 11. Two creators are still at zero clips in their EDITED folder. Several recent clips remain in draft status and need captions before they can post."
+    "production": "111 edited clips across 9 creators. Top producers at 26 clips each, median around 11. Two creators are still at zero clips in their EDITED folder. Several recent clips remain in draft status and need captions before they can go live."
   }
 }
