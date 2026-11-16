@@ -4,7 +4,7 @@
     "shortName": "Mile Hi Pickleball",
     "tagline": "The TikTok Roster",
     "season": "Summer '26",
-    "weekLabel": "Week of Nov 9 · Nov 15",
+    "weekLabel": "Week of Nov 16 · Nov 22",
     "intro": "Nine voices. One court. Every week, fresh stories from the players shaping pickleball culture in Colorado.",
     "logo": "assets/logo.png",
     "siteUrl": "https://milehicitypickleball.com",
@@ -22,71 +22,71 @@
   "thisWeek": [
     {
       "id": "trend-1",
-      "title": "grwm: court edition loading",
-      "tag": "COURT PREP GRWM",
+      "title": "casual to locked in",
+      "tag": "COURT GLOW UP",
       "tagColor": "burnt",
-      "startDate": "Nov 9",
-      "endDate": "Nov 15",
-      "brief": "Start at 0% in your regular clothes outside Mile Hi. Each cut adds 25%: grab your JOOLA paddle (25%), lace up your court shoes in the lobby (50%), walk through the door to Court 1 (75%), be mid-rally at the net looking fully locked in (100% LOADED). On-screen text at each cut shows the percentage loading bar. Use any upbeat track. Portrait, under 20 seconds. Caption: 'court edition: loading complete · see u at mile hi · @milehicitypickleball.'",
+      "startDate": "Nov 16",
+      "endDate": "Nov 22",
+      "brief": "Use the fan-blade wipe effect in CapCut (search 'fan wipe transition' in effects). Start in your everyday clothes in the Mile Hi lobby or outside the front doors, looking unsure. Fan-blade wipe. Land inside Court 1 in your full kit: JOOLA paddle up, locked in, owning the court in front of the navy GAME ON wall. On-screen text before the wipe: 'me before mile hi.' On-screen text after the wipe: 'me now.' No voiceover needed, any upbeat track works. Portrait, under 15 seconds. Caption: 'the transformation is real · Court 1 at mile hi · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/grwm-loading-fitness",
-        "https://www.tiktok.com/discover/grwm-loading-trend-2026"
+        "https://www.tiktok.com/discover/fan-wipe-transition-transformation",
+        "https://www.tiktok.com/discover/glow-up-transformation-tiktok-2026"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["1","2","3","4","5","6","7","8","9"],
-      "trendSource": "The GRWM Loading format, where creators film themselves going from 0% to 100% with each cut, is listed as one of the top GRWM formats in Later's October 2026 trend roundup. It has expanded beyond beauty into fitness and venue content across the platform. This is a non-pickleball GRWM format adapted for the Mile Hi pre-court routine.",
-      "hookFormat": "grwm"
+      "trendSource": "The fan-blade wipe transformation format appeared in New Engen's October 2026 TikTok trend roundup, where creators were using it to hide cuts in outfit-change content, turning a simple before-and-after into a satisfying visual reveal. This is a non-pickleball viral transition format adapted for a court-arrival glow-up at Mile Hi.",
+      "hookFormat": "transformation"
     },
     {
       "id": "trend-2",
-      "title": "3 things nobody tells you",
-      "tag": "BEGINNER TRUTH DROP",
+      "title": "this is my whole personality",
+      "tag": "OBSESSED ERA REAL",
       "tagColor": "aqua",
-      "startDate": "Nov 9",
-      "endDate": "Nov 15",
-      "brief": "Talking-head or on-screen text rapid-fire format, no fancy editing needed. Open with on-screen title: '3 things nobody tells you about pickleball.' Then 3 quick cuts: 1) 'it is not a retirement sport' (show yourself rallying hard at Court 1), 2) 'the kitchen rule will confuse you for one day, then click' (mime confusion then relief), 3) 'you will not leave after one session' (show yourself still on the court, smiling). End on-screen: 'Coach Jill will explain the rest · 11 courts waiting · mile hi.' JOOLA paddle in hand the whole time. Portrait, under 25 seconds. Caption: 'consider yourself warned · @milehicitypickleball.'",
+      "startDate": "Nov 16",
+      "endDate": "Nov 22",
+      "brief": "Search 'Housewife' by Tate McRae on TikTok and save it before you film. The format is stacked text over the chorus showing how one thing took over your personality. Stand at Court 1 or in front of the navy GAME ON wall, holding your JOOLA paddle. As the chorus hits, stack on-screen text cards one at a time: 'thought it was just for fun,' then 'now i'm here every day,' then 'mile hi has my whole personality.' Stay relaxed, shoulders back, slight smile. Portrait, under 20 seconds. Caption: 'it got me · Court 1 got me · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/3-things-nobody-tells-you-pickleball",
-        "https://www.tiktok.com/discover/number-facts-sports-tiktok"
+        "https://www.tiktok.com/discover/housewife-tate-mcrae-tiktok-trend",
+        "https://www.tiktok.com/discover/this-is-my-whole-personality-tiktok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["1","5"],
-      "trendSource": "The number-plus-promise format ('3 things about X') is one of the most consistent high-retention hooks on TikTok for fitness and venue content in 2026, per SocialZ.ai's 52-video-ideas guide for 2026. PlayByPoint's pickleball club TikTok guide confirms quick-tip and rule-breakdown videos as top beginner-funnel content for clubs. Coach Jill name-drop adds Mile Hi credibility and grounds the tip in the actual venue.",
-      "hookFormat": "number+promise"
+      "trendSource": "'Housewife' by Tate McRae is listed as a top trending TikTok sound for November 2026 in SocialBee's November 12 weekly roundup and confirmed by SocialPilot's weekly tracker. The stacked 'this is my whole personality' text format pairs with it across sports and hobby niches where creators show how a thing took over their life.",
+      "hookFormat": "sound trend"
     },
     {
       "id": "trend-3",
-      "title": "pov: you just found your court",
-      "tag": "FOUND MY COURT POV",
+      "title": "why denver plays here",
+      "tag": "REAL ONES KNOW THIS",
       "tagColor": "butter",
-      "startDate": "Nov 9",
-      "endDate": "Nov 15",
-      "brief": "Film in portrait using a simple two-shot edit or the split-screen template. First shot: your face in selfie-mode walking through Mile Hi looking genuinely impressed, eyes going wide as you take in the 11 courts. Immediate cut or bottom frame: what you are actually seeing from your point of view, the navy GAME ON wall, the full court spread, players rallying. On-screen text on the first shot: 'POV: you just found the place.' On-screen text on the second shot: 'mile hi · 11 courts · right here in Denver.' No voiceover needed. Portrait, under 15 seconds. Caption: 'the reaction is always the same · first time at mile hi · @milehicitypickleball.'",
+      "startDate": "Nov 16",
+      "endDate": "Nov 22",
+      "brief": "Film three rapid-fire talking-head clips of real players at Court 1, each giving one sentence about why they come back to Mile Hi. Fast cuts between them. Open with on-screen title: 'why everyone in Denver plays here.' End on the navy GAME ON wall with on-screen text: '11 courts · indoor year-round · Coach Jill on staff · mile hi.' If other players are not available, film yourself three times as three different 'testimonial' angles using on-screen quote text. Portrait, under 25 seconds. Caption: 'the reviews speak for themselves · come find out · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/pov-split-screen-reaction-tiktok",
-        "https://www.tiktok.com/discover/pov-found-my-place-venue-tiktok"
+        "https://www.tiktok.com/discover/why-everyone-goes-here-local-venue",
+        "https://www.tiktok.com/discover/social-proof-testimonial-sports-tiktok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["2","3","7"],
-      "trendSource": "The POV split-screen format, selfie reaction shot paired with what the creator is looking at, is listed in Later's October 2026 trend roundup as one of the defining Gen Z POV formats this fall, with strong performance for venue discovery content. This is a non-pickleball viral format adapted for a first-court-visit reaction at Mile Hi.",
-      "hookFormat": "pov"
+      "trendSource": "The stacked-testimonial social proof format is confirmed as one of the top-performing club TikTok strategies in PlayByPoint's 2026 pickleball club content guide, which cites community testimonial videos as a top funnel driver for local venues. Local social proof converts well because viewers trust real people over brand claims, and the 'why everyone here' hook is a non-pickleball viral format adapted for Mile Hi's court community.",
+      "hookFormat": "social proof"
     },
     {
       "id": "trend-4",
-      "title": "someone's gotta hold it down",
-      "tag": "HOLDING IT DOWN ERA",
+      "title": "24 degrees outside, 70 inside",
+      "tag": "INDOOR SEASON OPEN",
       "tagColor": "denim",
-      "startDate": "Nov 9",
-      "endDate": "Nov 15",
-      "brief": "Search 'Ain't In LA' by ADELA on TikTok and save it before you film. The trend is 'someone's gotta hold it down,' filmed at the place where the loyal ones stay while everyone else has gone elsewhere. Film yourself at Mile Hi Court 1 or in front of the navy GAME ON wall, holding your JOOLA paddle, owning the court with full confidence. On-screen text: 'everyone went skiing · someone's gotta hold it down · mile hi november.' Stay on beat, shoulders relaxed. Portrait, under 15 seconds. Caption: 'the courts are open · the real ones know · @milehicitypickleball.'",
+      "startDate": "Nov 16",
+      "endDate": "Nov 22",
+      "brief": "Film at the Court 1 net or in front of the navy GAME ON wall. On-screen text in two beats: first card reads '24 degrees in Denver right now.' Second card reads '70 degrees on Court 1.' Final frame: you rallying or paddle up with text 'indoor season is officially open · mile hi.' No voiceover needed. Use any upbeat track. Portrait, under 15 seconds. November is when Denver outdoor activity drops sharply and the indoor season begins, so lean into the contrast. Caption: 'you do not have to go outside · Court 1 is heated and ready · @milehicitypickleball.'",
       "examples": [
-        "https://www.tiktok.com/discover/aint-in-la-adela-someone-gotta-hold-it-down",
-        "https://www.tiktok.com/discover/someone-gotta-hold-it-down-tiktok-trend"
+        "https://www.tiktok.com/discover/indoor-season-fitness-november",
+        "https://www.tiktok.com/discover/warm-inside-cold-outside-gym-tiktok"
       ],
       "dropFolder": "https://drive.google.com/drive/folders/1pN-OwdUFXkfe0zFRzv3VWUK28Qmh368J",
       "assignedTo": ["4","6","8","9"],
-      "trendSource": "NapoleonCat's November 2026 trend roundup confirms 'Ain't In LA' by ADELA as the audio behind the 'someone's gotta hold it down' trend, where creators film themselves at their loyalty spot while others have gone elsewhere. This is a real trending sound active in November 2026 and a non-pickleball format adapted for Mile Hi's indoor courts as ski season pulls people away from outdoor activity.",
-      "hookFormat": "sound trend"
+      "trendSource": "Seasonal venue contrast content, filming the warm indoor space against the cold outside, is confirmed in SocialPilot's fall 2026 weekly trend tracker as a repeatable seasonal hook for local fitness and sports venues. Denver November lows regularly hit the low 20s, making the indoor contrast angle highly localized and scroll-stopping for a Denver audience.",
+      "hookFormat": "seasonal"
     }
   ],
   "creators": [
@@ -780,18 +780,18 @@
     }
   ],
   "weeklyReport": {
-    "weekOf": "Nov 9 · Nov 15",
-    "generatedAt": "2026-11-09T13:11:22Z",
-    "summary": "No TikTok performance data was logged for Nov 2 to Nov 8. Drive production holds at 111 edited clips across 9 creators. Four new trends for Nov 9 to Nov 15 cover a GRWM Loading court-prep format, a number-plus-promise beginner tip drop, a POV split-screen first-court discovery, and a sound trend adaptation of 'Ain't In LA' by ADELA.",
+    "weekOf": "Nov 16 · Nov 22",
+    "generatedAt": "2026-11-16T13:15:00Z",
+    "summary": "No TikTok performance data was logged for Nov 9 to Nov 15. Drive production holds at 111 edited clips across 9 creators. Four new trends for Nov 16 to Nov 22 cover a fan-wipe transformation, a Housewife by Tate McRae sound trend, a social proof testimonial format, and a seasonal indoor-vs-outdoor contrast for Denver November.",
     "topVideo": null,
     "topCreator": {
       "name": "The squad",
-      "reason": "No TikTok performance data exists for the prior week. Drive production holds at 111 edited clips total, with top producers at 26 clips each and the full squad continuing into mid-November."
+      "reason": "No TikTok performance data exists for the prior week. Drive production holds at 111 edited clips total across 9 creators, with top producers at 26 clips each."
     },
     "watchOuts": [
       "Two creators still have zero clips in their EDITED folder. If that is you, one clip this week fixes it. Film one, edit it, and drop it in your EDITED folder before Sunday.",
-      "Several recent clips are sitting in draft with no captions or hashtags added. If that is you, open your folder, pick one clip, add a caption plus hashtags, and flip the status to ready before Thursday.",
-      "No TikTok video links came in from last week. If you posted, ping Tricia with the link so the squad can see what is landing."
+      "Several recent clips are sitting in draft with no captions or hashtags. If that is you, open your folder, pick one clip, add a caption plus hashtags, and flip the status to ready before Thursday.",
+      "No TikTok video links came in from last week. If you posted, ping Tricia with the link so the squad can track what is landing."
     ],
     "production": "111 edited clips across 9 creators. Top producers at 26 clips each, median around 11. Two creators are still at zero clips in their EDITED folder. Several recent clips remain in draft status and need captions before they can go live."
   }
